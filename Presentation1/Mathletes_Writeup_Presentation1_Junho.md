@@ -131,7 +131,7 @@ KimiaNet adds 6,953,856 frozen parameters that are not estimated. Both numbers w
 PyTorch's weighted cross-entropy with `reduction='mean'` (`trainer.py L69`) divides by the batch's total weight. The training loss adds a patch-attention entropy bonus (`trainer.py L159–205, L259–268`).
 
 ```math
-\mathcal{L}_c = \frac{w(y_c)\,[-\log p(y_c\mid c)]}{w(y_c)} \;-\; \lambda\,\bar H_c, \qquad \bar H_c = \operatorname*{mean}_{(s,t)} \frac{-\sum_{i=1}^{P} a_i \log a_i}{\log P}, \qquad \lambda = 10^{-3}
+\mathcal{L}_c = \frac{w(y_c)\,[-\log p(y_c\mid c)]}{w(y_c)} \;-\; \lambda\,\bar H_c, \qquad \bar H_c = \mathrm{mean}_{(s,t)} \frac{-\sum_{i=1}^{P} a_i \log a_i}{\log P}, \qquad \lambda = 10^{-3}
 ```
 
 $`\bar H_c \in [0,1]`$ is the entropy of the patch attention, divided by its maximum $`\log P`$ and averaged over the case's slices. Subtracting it rewards attention spread over many patches. Weight decay is applied by AdamW in the update step, so it does not appear in $`\mathcal{L}_c`$.
