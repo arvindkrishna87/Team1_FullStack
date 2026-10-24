@@ -152,4 +152,4 @@ One test fold has 18–19 cases, so one error moves accuracy by $1/19 \approx 5.
 9. Varoquaux (2018). Cross-validation failure. NeuroImage 180.
 10. Wilson (1927). Probable inference. JASA 22.
 11. STAT390 instructional team. `Presentation1_base_code` and Code walkthrough slides (Fall 2026).
-12. AI use. Claude (Anthropic) helped read the code, draft formulas and check arithmetic. All numbers were checked against the code or computed on Quest.
+12. AI use. Claude (Anthropic) helped read the code and formulas, and find reference documents.
