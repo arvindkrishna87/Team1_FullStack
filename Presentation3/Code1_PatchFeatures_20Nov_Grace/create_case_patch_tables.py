@@ -6,6 +6,11 @@ import pandas as pd
 from PIL import Image
 from config import DATA_PATHS, VALID_CLASSES
 from data_utils import load_labels, extract_stain_from_filename
+import time
+import pyarrow
+
+start = time.time()
+processed = 0
 
 ### GET PATHS
 PATCHES_DIR = DATA_PATHS["patches_dir"]
@@ -20,6 +25,22 @@ grade_map = dict(zip(labels["Case"].astype(int), labels["Class"]))
 records = []
 built_at = datetime.now().isoformat(timespec="seconds")
 for filename in sorted(os.listdir(PATCHES_DIR)):
+# Test on only 100 files
+#all_patches = sorted(
+#    f for f in os.listdir(PATCHES_DIR)
+#    if f.lower().endswith(".png")
+#)
+#test_patches = all_patches[:100]
+#for filename in test_patches:
+    processed = processed + 1
+    if processed % 1000 == 0:
+        elapsed = time.time() - start
+        rate = processed / elapsed
+        print(f"Processed {processed:,} patches "
+              f"in {elapsed / 60:.1f} minutes"
+              f"({rate:.1f} patches/sec)",
+              flush = True)
+
     if not filename.lower().endswith(".png"):
         continue
     # Extract case, slice, and patch number from filename
@@ -32,7 +53,7 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
     case_id = int(match.group(1))
     slice_raw = match.group(2).lower()
     patch_num = int(match.group(3))
-    slice_id = re.sub(r"([a-z])(\d+)$", r"\1_\2", slice_raw)
+    #slice_id = re.sub(r"([a-z])(\d+)$", r"\1_\2", slice_raw)
 
     stain = extract_stain_from_filename(filename)
     if stain is None: raise ValueError(f"Unknown stain: {filename}")
@@ -59,7 +80,7 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
         "case": case_id,
         "patient": pd.NA, ### need to figure out
         "slice_raw": slice_raw,
-        "slice_id": slice_id,
+        #"slice_id": slice_id,
         "stain": stain,
         "patch": patch_num,
         "png_name": filename,
@@ -70,7 +91,7 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
         "label": label,
         "fold": pd.NA, ### need to figure out
         "emb_version": "pooled4096",
-        "dataset": "current",
+        #"dataset": "current", # deleted
         "built_at": built_at,
         "width": width, # new
         "height": height, # new

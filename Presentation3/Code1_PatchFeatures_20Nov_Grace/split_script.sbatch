@@ -9,7 +9,7 @@
 #SBATCH --output=splits_output.out
 #SBATCH --error=splits_error.err
 #SBATCH --mail-type=ALL                   # Send email on begin, end, and fail
-#SBATCH --mail-user=<email>  # Your NU email
+#SBATCH --mail-user=gracefan2027@u.northwestern.edu  # Your NU email
 
 module purge
 module load python-anaconda3/2019.10
