@@ -63,7 +63,7 @@ for filename in test_patches:
     patient = match.group(2).lower()
     slice_raw = match.group(2).lower()
     patch_num = int(match.group(3))
-    slice_id = re.sub(r"([a-z])(\d+)$", r"\1_\2", slice_raw)
+    # slice_id = re.sub(r"([a-z])(\d+)$", r"\1_\2", slice_raw) # unused
     stain = extract_stain_from_filename(filename)
     if stain is None: raise ValueError(f"Unknown stain: {filename}")
 
@@ -117,7 +117,7 @@ case_records = []
 for case_id, group in patch_df.groupby("case"):
     # Calculating new columns
     n_patches = len(group)
-    n_slices = group["slice_id"].nunique()
+    n_slices = group["slice_raw"].nunique()
     sizes = group["patch_size"]
     stain_counts = group["stain"].value_counts()
     n_missing = group["emb_path"].isna().sum()
