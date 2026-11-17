@@ -115,7 +115,7 @@ for case_id, group in patch_df.groupby("case"):
     # Put together values
     case_records.append({
         "case_id": case_id,
-        "patient_id": pd.NA,
+        "patient_id": pd.NA, ### need to figure out
         "label": group["label"].iloc[0],
         "grade": group["grade_raw"].iloc[0],
         "fold": pd.NA,
