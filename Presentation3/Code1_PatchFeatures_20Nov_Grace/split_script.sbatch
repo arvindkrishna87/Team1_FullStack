@@ -29,7 +29,8 @@ cd /path_to_file_directory # path to file directory
 
 # without loading checkpoints, trying 5 diff train / test splits
 
+# updated from /projects/e32998/patches_benign_split
 python3 make_splits.py \
     --labels_csv path_to/extra_benign_case_grade_match.csv \
-    --patches_dir /projects/e32998/patches_benign_split \
+    --patches_dir /projects/e32998/patch_images \
     --save_dir /path_to/no_train_val_leakage_splits # directory where splits are saved to

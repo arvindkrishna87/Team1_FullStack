@@ -29,7 +29,8 @@ cd <enter path of script>
 
 # without loading checkpoints, trying 5 diff train / test splits
 
+# updated from presentation 2, /projects/e32998/patches_benign_split
 python3 precompute_pooled_features.py \
-    --patches_dir /projects/e32998/patches_benign_split \
+    --patches_dir /projects/e32998/patch_images \
     --embeddings_dir /projects/e32998/STAT390_Fall2026/<insert Team directory>patch_embeddings_UNI2 \
     --kimianet_ckpt /path/to/UNI2.pth 
