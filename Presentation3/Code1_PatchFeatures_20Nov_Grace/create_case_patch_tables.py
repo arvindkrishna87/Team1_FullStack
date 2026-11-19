@@ -16,8 +16,7 @@ processed = 0
 PATCHES_DIR = DATA_PATHS["patches_dir"]
 #EMBEDDINGS_DIR = "/projects/e32998/patches_varsize_pooled4096"
 EMBEDDINGS_DIR = "/projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99"
-SPLITS_DIR = ("/home/cwh6075/Team1_FullStack/Presentation3/"
-              "Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits")
+SPLITS_DIR = ("/home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits")
 
 ### GET LABELS
 labels = load_labels(DATA_PATHS["labels_csv"])

@@ -1,5 +1,5 @@
-Job ID: 9326675
-Start time: Thu Nov 19 00:29:17 CST 2026
+Job ID: 9357350
+Start time: Thu Nov 19 10:07:38 CST 2026
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_008_unmatched_2_h&e_patch32.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_008_unmatched_2_melan_patch109.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_008_unmatched_2_melan_patch59.pt
@@ -20,7 +20,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_038_match_10_h&e_patch92.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_038_match_11_h&e_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_038_match_11_h&e_patch7.pt
-Processed 1,000 patches in 0.3 minutes(61.1 patches/sec)
+Processed 1,000 patches in 0.3 minutes(60.4 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_038_match_12_sox10_patch42.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_038_match_12_sox10_patch43.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_038_match_12_sox10_patch44.pt
@@ -35,17 +35,17 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_041_match_1_h&e_patch5.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_041_match_1_h&e_patch6.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_041_match_1_melan_patch7.pt
-Processed 2,000 patches in 0.5 minutes(64.4 patches/sec)
-Processed 3,000 patches in 0.8 minutes(64.9 patches/sec)
-Processed 4,000 patches in 1.0 minutes(65.0 patches/sec)
-Processed 5,000 patches in 1.3 minutes(65.7 patches/sec)
+Processed 2,000 patches in 0.5 minutes(61.1 patches/sec)
+Processed 3,000 patches in 0.8 minutes(62.5 patches/sec)
+Processed 4,000 patches in 1.1 minutes(63.2 patches/sec)
+Processed 5,000 patches in 1.3 minutes(63.6 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_056_match_2_melan_patch36.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_056_match_2_melan_patch45.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_056_match_2_melan_patch6.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_056_match_2_melan_patch86.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_056_match_2_melan_patch87.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_056_match_2_melan_patch95.pt
-Processed 6,000 patches in 1.5 minutes(66.9 patches/sec)
+Processed 6,000 patches in 1.6 minutes(64.2 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_057_match_2_h&e_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_057_match_2_h&e_patch1.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_057_match_2_h&e_patch14.pt
@@ -101,7 +101,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_057_match_3_melan_patch7.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_057_match_3_melan_patch8.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_057_match_3_melan_patch9.pt
-Processed 7,000 patches in 1.7 minutes(66.8 patches/sec)
+Processed 7,000 patches in 1.8 minutes(64.6 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_058_match_1_h&e_patch13.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_058_match_1_melan_patch10.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_058_match_1_melan_patch11.pt
@@ -127,15 +127,15 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_058_match_1_sox10_patch47.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_058_match_1_sox10_patch48.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_058_match_1_sox10_patch49.pt
-Processed 8,000 patches in 2.0 minutes(67.0 patches/sec)
+Processed 8,000 patches in 2.0 minutes(65.1 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_059_match_1_melan_patch9.pt
-Processed 9,000 patches in 2.4 minutes(63.7 patches/sec)
-Processed 10,000 patches in 2.6 minutes(63.9 patches/sec)
+Processed 9,000 patches in 2.4 minutes(62.2 patches/sec)
+Processed 10,000 patches in 2.7 minutes(62.1 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_064_match_1_h&e_patch325.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_064_match_1_h&e_patch332.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_064_match_1_h&e_patch334.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_064_match_1_h&e_patch335.pt
-Processed 11,000 patches in 2.9 minutes(64.0 patches/sec)
+Processed 11,000 patches in 2.9 minutes(62.4 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_064_match_1_melan_patch356.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_064_match_1_sox10_patch286.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_064_match_1_sox10_patch289.pt
@@ -148,8 +148,8 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_064_match_3_sox10_patch1.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_064_match_3_sox10_patch2.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_064_match_3_sox10_patch6.pt
-Processed 12,000 patches in 3.1 minutes(64.3 patches/sec)
-Processed 13,000 patches in 3.2 minutes(68.2 patches/sec)
+Processed 12,000 patches in 3.2 minutes(62.6 patches/sec)
+Processed 13,000 patches in 3.3 minutes(66.2 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_066_match_2_h&e_patch22.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_066_match_2_h&e_patch31.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_066_match_4_melan_patch104.pt
@@ -185,7 +185,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_068_match_1_sox10_patch41.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_068_match_1_sox10_patch42.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_068_match_1_sox10_patch43.pt
-Processed 14,000 patches in 3.4 minutes(68.1 patches/sec)
+Processed 14,000 patches in 3.6 minutes(65.7 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_068_match_2_h&e_patch19.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_068_match_2_h&e_patch20.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_068_match_2_h&e_patch4.pt
@@ -228,7 +228,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_070_match_1_melan_patch1.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_070_match_1_melan_patch2.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_070_match_1_melan_patch3.pt
-Processed 15,000 patches in 3.7 minutes(67.7 patches/sec)
+Processed 15,000 patches in 3.8 minutes(65.0 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_070_match_3_sox10_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_070_match_3_sox10_patch1.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_070_match_3_sox10_patch10.pt
@@ -242,7 +242,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_070_match_3_sox10_patch8.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_070_match_3_sox10_patch9.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_070_match_4_h&e_patch66.pt
-Processed 16,000 patches in 4.0 minutes(66.1 patches/sec)
+Processed 16,000 patches in 4.2 minutes(64.0 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_073_match_1_h&e_patch388.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_073_match_1_h&e_patch389.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_073_match_1_h&e_patch390.pt
@@ -270,18 +270,18 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_073_match_1_h&e_patch491.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_073_match_1_h&e_patch492.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_073_match_1_h&e_patch495.pt
-Processed 17,000 patches in 4.3 minutes(66.3 patches/sec)
+Processed 17,000 patches in 4.4 minutes(64.4 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_073_match_1_sox10_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_073_match_1_sox10_patch1.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_073_match_1_sox10_patch2.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_075_match_1_h&e_patch11.pt
-Processed 18,000 patches in 4.5 minutes(66.5 patches/sec)
+Processed 18,000 patches in 4.7 minutes(64.4 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_075_match_1_h&e_patch4.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_075_match_1_h&e_patch6.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_075_match_1_melan_patch167.pt
-Processed 19,000 patches in 4.8 minutes(66.5 patches/sec)
-Processed 20,000 patches in 5.0 minutes(66.4 patches/sec)
-Processed 21,000 patches in 5.3 minutes(65.8 patches/sec)
+Processed 19,000 patches in 4.9 minutes(64.6 patches/sec)
+Processed 20,000 patches in 5.2 minutes(64.7 patches/sec)
+Processed 21,000 patches in 5.4 minutes(64.5 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_102_match_1_h&e_patch13.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_102_match_1_h&e_patch14.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_102_match_1_h&e_patch17.pt
@@ -314,7 +314,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_102_match_1_h&e_patch65.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_102_match_1_h&e_patch7.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_102_match_1_h&e_patch9.pt
-Processed 22,000 patches in 5.6 minutes(65.7 patches/sec)
+Processed 22,000 patches in 5.7 minutes(64.4 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_102_match_1_sox10_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_102_match_1_sox10_patch10.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_102_match_1_sox10_patch3.pt
@@ -336,11 +336,11 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_102_unmatched_6_h&e_patch95.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_102_unmatched_6_h&e_patch98.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_match_12_melan_patch16.pt
-Processed 23,000 patches in 5.8 minutes(65.6 patches/sec)
+Processed 23,000 patches in 6.0 minutes(64.2 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_match_2_melan_patch2.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_match_2_sox10_patch79.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_match_3_sox10_patch1.pt
-Processed 24,000 patches in 6.1 minutes(65.4 patches/sec)
+Processed 24,000 patches in 6.2 minutes(64.2 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_match_4_melan_patch53.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_match_4_melan_patch54.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_match_6_h&e_patch131.pt
@@ -348,14 +348,14 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_match_6_h&e_patch93.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_match_6_h&e_patch94.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_match_6_h&e_patch95.pt
-Processed 25,000 patches in 6.4 minutes(65.5 patches/sec)
+Processed 25,000 patches in 6.5 minutes(64.4 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_unmatched_2_h&e_patch16.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_104_unmatched_2_h&e_patch17.pt
-Processed 26,000 patches in 6.6 minutes(65.2 patches/sec)
-Processed 27,000 patches in 6.9 minutes(65.4 patches/sec)
+Processed 26,000 patches in 6.7 minutes(64.3 patches/sec)
+Processed 27,000 patches in 7.0 minutes(64.4 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_107_unmatched_2_h&e_patch92.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_107_unmatched_3_h&e_patch56.pt
-Processed 28,000 patches in 7.1 minutes(65.8 patches/sec)
+Processed 28,000 patches in 7.2 minutes(64.7 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_108_match_2_melan_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_108_match_2_melan_patch102.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_108_match_2_melan_patch105.pt
@@ -449,14 +449,14 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_108_unmatched_6_h&e_patch82.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_108_unmatched_6_h&e_patch83.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_108_unmatched_6_h&e_patch84.pt
-Processed 29,000 patches in 7.3 minutes(66.5 patches/sec)
+Processed 29,000 patches in 7.4 minutes(65.1 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_109_match_1_sox10_patch9.pt
-Processed 30,000 patches in 7.5 minutes(66.8 patches/sec)
+Processed 30,000 patches in 7.7 minutes(65.4 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_110_unmatched_5_h&e_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_111_unmatched_7_h&e_patch11.pt
-Processed 31,000 patches in 7.7 minutes(67.0 patches/sec)
-Processed 32,000 patches in 7.8 minutes(68.6 patches/sec)
-Processed 33,000 patches in 7.8 minutes(70.7 patches/sec)
+Processed 31,000 patches in 7.9 minutes(65.6 patches/sec)
+Processed 32,000 patches in 7.9 minutes(67.2 patches/sec)
+Processed 33,000 patches in 7.9 minutes(69.3 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_118_match_1_h&e_patch114.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_118_match_1_h&e_patch115.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_118_match_1_h&e_patch117.pt
@@ -495,17 +495,17 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_118_match_1_melan_patch77.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_118_match_1_melan_patch93.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_118_match_1_melan_patch94.pt
-Processed 34,000 patches in 7.8 minutes(72.3 patches/sec)
+Processed 34,000 patches in 8.0 minutes(70.8 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_118_unmatched_3_h&e_patch41.pt
-Processed 35,000 patches in 8.1 minutes(72.0 patches/sec)
+Processed 35,000 patches in 8.3 minutes(70.7 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_11_match_1_h&e_patch79.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_11_unmatched_3_h&e_patch8.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_12_unmatched_1_melan_patch25.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_12_unmatched_1_melan_patch26.pt
-Processed 36,000 patches in 8.3 minutes(72.0 patches/sec)
-Processed 37,000 patches in 8.6 minutes(71.7 patches/sec)
-Processed 38,000 patches in 8.8 minutes(71.6 patches/sec)
-Processed 39,000 patches in 9.1 minutes(71.7 patches/sec)
+Processed 36,000 patches in 8.5 minutes(70.7 patches/sec)
+Processed 37,000 patches in 8.7 minutes(70.5 patches/sec)
+Processed 38,000 patches in 9.0 minutes(70.6 patches/sec)
+Processed 39,000 patches in 9.2 minutes(70.6 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_17_match_1_h&e_patch1.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_17_match_1_h&e_patch7.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_17_match_1_h&e_patch8.pt
@@ -540,7 +540,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_18_match_1_melan_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_18_match_1_melan_patch1.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_18_match_1_melan_patch2.pt
-Processed 40,000 patches in 9.3 minutes(71.7 patches/sec)
+Processed 40,000 patches in 9.5 minutes(70.5 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_18_match_1_sox10_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_18_match_1_sox10_patch10.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_18_match_1_sox10_patch11.pt
@@ -608,7 +608,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_19_match_1_h&e_patch216.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_19_match_1_h&e_patch229.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_19_match_1_h&e_patch99.pt
-Processed 41,000 patches in 9.5 minutes(71.9 patches/sec)
+Processed 41,000 patches in 9.6 minutes(70.8 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_19_match_1_sox10_patch10.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_19_match_1_sox10_patch100.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_19_match_1_sox10_patch101.pt
@@ -679,9 +679,9 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_19_match_3_h&e_patch116.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_19_match_3_h&e_patch118.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_19_match_4_h&e_patch7.pt
-Processed 42,000 patches in 9.7 minutes(72.3 patches/sec)
+Processed 42,000 patches in 9.8 minutes(71.1 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_19_unmatched_1_h&e_patch15.pt
-Processed 43,000 patches in 9.9 minutes(72.4 patches/sec)
+Processed 43,000 patches in 10.1 minutes(71.1 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_19_unmatched_4_h&e_patch63.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_20_match_1_h&e_patch28.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_20_match_2_h&e_patch2.pt
@@ -689,33 +689,33 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_20_unmatched_1_h&e_patch36.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_20_unmatched_1_h&e_patch47.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_20_unmatched_2_h&e_patch45.pt
-Processed 44,000 patches in 10.1 minutes(72.3 patches/sec)
+Processed 44,000 patches in 10.3 minutes(71.1 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_22_unmatched_13_sox10_patch0.pt
-Processed 45,000 patches in 10.4 minutes(72.3 patches/sec)
+Processed 45,000 patches in 10.5 minutes(71.1 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_22_unmatched_7_h&e_patch59.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_22_unmatched_7_h&e_patch60.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_22_unmatched_7_h&e_patch61.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_23_match_1_sox10_patch1.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_23_match_1_sox10_patch18.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_23_match_1_sox10_patch33.pt
-Processed 46,000 patches in 10.6 minutes(72.1 patches/sec)
-Processed 47,000 patches in 10.9 minutes(71.8 patches/sec)
-Processed 48,000 patches in 11.1 minutes(71.8 patches/sec)
+Processed 46,000 patches in 10.8 minutes(71.1 patches/sec)
+Processed 47,000 patches in 11.0 minutes(71.1 patches/sec)
+Processed 48,000 patches in 11.3 minutes(70.6 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_26_unmatched_13_h&e_patch31.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_26_unmatched_14_h&e_patch115.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_26_unmatched_5_melan_patch165.pt
-Processed 49,000 patches in 11.4 minutes(71.9 patches/sec)
+Processed 49,000 patches in 11.6 minutes(70.6 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_27_unmatched_4_h&e_patch46.pt
-Processed 50,000 patches in 11.6 minutes(72.1 patches/sec)
+Processed 50,000 patches in 11.8 minutes(70.7 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_28_unmatched_3_h&e_patch13.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_28_unmatched_3_h&e_patch14.pt
-Processed 51,000 patches in 11.8 minutes(72.1 patches/sec)
-Processed 52,000 patches in 12.0 minutes(72.1 patches/sec)
+Processed 51,000 patches in 12.0 minutes(70.6 patches/sec)
+Processed 52,000 patches in 12.3 minutes(70.6 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_32_unmatched_2_h&e_patch22.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_32_unmatched_2_h&e_patch23.pt
-Processed 53,000 patches in 12.2 minutes(72.1 patches/sec)
+Processed 53,000 patches in 12.5 minutes(70.6 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_35_match_1_melan_patch136.pt
-Processed 54,000 patches in 12.5 minutes(72.1 patches/sec)
+Processed 54,000 patches in 12.8 minutes(70.5 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_35_match_2_melan_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_35_match_2_melan_patch106.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_35_match_2_melan_patch140.pt
@@ -773,10 +773,10 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_35_match_2_sox10_patch68.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_35_match_2_sox10_patch69.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_35_match_2_sox10_patch70.pt
-Processed 55,000 patches in 12.7 minutes(72.2 patches/sec)
+Processed 55,000 patches in 13.0 minutes(70.5 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match15_h&e_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match15_h&e_patch3.pt
-Processed 56,000 patches in 13.0 minutes(71.7 patches/sec)
+Processed 56,000 patches in 13.3 minutes(69.9 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_7_h&e_patch10.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_7_h&e_patch107.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_7_h&e_patch11.pt
@@ -995,7 +995,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_8_h&e_patch28.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_8_h&e_patch30.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_8_h&e_patch32.pt
-Processed 57,000 patches in 13.2 minutes(71.9 patches/sec)
+Processed 57,000 patches in 13.6 minutes(70.0 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_8_sox10_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_8_sox10_patch1.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_8_sox10_patch2.pt
@@ -1238,10 +1238,10 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_9_sox10_patch4.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_9_sox10_patch5.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_38_match_9_sox10_patch6.pt
-Processed 58,000 patches in 13.3 minutes(72.7 patches/sec)
+Processed 58,000 patches in 13.7 minutes(70.7 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_3_unmatched_3_h&e_patch35.pt
-Processed 59,000 patches in 13.5 minutes(72.7 patches/sec)
-Processed 60,000 patches in 13.8 minutes(72.4 patches/sec)
+Processed 59,000 patches in 13.9 minutes(70.8 patches/sec)
+Processed 60,000 patches in 14.2 minutes(70.6 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_42_match_2_h&e_patch22.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_42_match_2_h&e_patch23.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_42_match_2_h&e_patch27.pt
@@ -1259,7 +1259,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_42_match_2_sox10_patch13.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_42_match_2_sox10_patch14.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_42_match_2_sox10_patch15.pt
-Processed 61,000 patches in 14.1 minutes(72.3 patches/sec)
+Processed 61,000 patches in 14.4 minutes(70.6 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_45_match_1_h&e_patch35.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_45_match_1_h&e_patch36.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_45_match_1_h&e_patch46.pt
@@ -1313,7 +1313,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_45_match_1_sox10_patch53.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_45_match_1_sox10_patch6.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_45_match_1_sox10_patch9.pt
-Processed 62,000 patches in 14.3 minutes(72.3 patches/sec)
+Processed 62,000 patches in 14.6 minutes(70.6 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_46_match_1_melan_patch11.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_46_match_1_melan_patch12.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_46_match_1_melan_patch15.pt
@@ -1519,7 +1519,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_47_match_1_melan_patch49.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_47_match_1_melan_patch52.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_47_match_1_melan_patch53.pt
-Processed 63,000 patches in 14.4 minutes(72.7 patches/sec)
+Processed 63,000 patches in 14.8 minutes(70.9 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_47_match_1_melan_patch61.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_47_match_1_melan_patch62.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_47_match_1_melan_patch69.pt
@@ -1631,13 +1631,13 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_47_match_1_sox10_patch99.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_48_match_1_h&e_patch16.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_48_match_1_h&e_patch17.pt
-Processed 64,000 patches in 14.7 minutes(72.7 patches/sec)
+Processed 64,000 patches in 15.0 minutes(71.0 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_49_match_1_h&e_patch43.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_49_match_1_h&e_patch44.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_49_match_1_h&e_patch45.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_4_match_1_melan_patch25.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_4_match_1_melan_patch27.pt
-Processed 65,000 patches in 14.9 minutes(72.5 patches/sec)
+Processed 65,000 patches in 15.3 minutes(70.8 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_4_unmatched_1_melan_patch30.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_4_unmatched_1_melan_patch31.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_4_unmatched_2_h&e_patch107.pt
@@ -1778,7 +1778,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_2_melan_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_2_melan_patch14.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_2_melan_patch15.pt
-Processed 66,000 patches in 15.1 minutes(72.6 patches/sec)
+Processed 66,000 patches in 15.5 minutes(71.0 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_2_melan_patch23.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_2_melan_patch24.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_2_melan_patch25.pt
@@ -1957,7 +1957,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_3_melan_patch267.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_3_melan_patch274.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_3_melan_patch276.pt
-Processed 67,000 patches in 15.3 minutes(72.9 patches/sec)
+Processed 67,000 patches in 15.7 minutes(71.2 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_3_melan_patch278.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_3_melan_patch280.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_3_melan_patch281.pt
@@ -1993,7 +1993,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_5_sox10_patch44.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_5_sox10_patch46.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_50_match_5_sox10_patch49.pt
-Processed 68,000 patches in 15.6 minutes(72.8 patches/sec)
+Processed 68,000 patches in 15.9 minutes(71.2 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_51_match_2_melan_patch28.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_51_match_2_melan_patch29.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_5_match_1_sox10_patch0.pt
@@ -2043,7 +2043,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_h&e_patch341.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_h&e_patch348.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_h&e_patch349.pt
-Processed 69,000 patches in 15.7 minutes(73.1 patches/sec)
+Processed 69,000 patches in 16.1 minutes(71.5 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_h&e_patch353.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_h&e_patch354.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_h&e_patch355.pt
@@ -2133,7 +2133,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_sox10_patch324.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_sox10_patch326.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_sox10_patch327.pt
-Processed 70,000 patches in 15.9 minutes(73.6 patches/sec)
+Processed 70,000 patches in 16.2 minutes(72.1 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_sox10_patch358.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_sox10_patch359.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_sox10_patch407.pt
@@ -2153,7 +2153,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_sox10_patch80.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_62_match_1_sox10_patch81.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_79_match_1_h&e_patch0.pt
-Processed 71,000 patches in 16.0 minutes(73.8 patches/sec)
+Processed 71,000 patches in 16.4 minutes(72.2 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_79_match_1_sox10_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_79_match_1_sox10_patch1.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_79_match_1_sox10_patch2.pt
@@ -2178,8 +2178,8 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_79_match_3_sox10_patch2.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_79_match_3_sox10_patch3.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_79_match_3_sox10_patch4.pt
-Processed 72,000 patches in 16.3 minutes(73.7 patches/sec)
-Processed 73,000 patches in 16.6 minutes(73.4 patches/sec)
+Processed 72,000 patches in 16.6 minutes(72.2 patches/sec)
+Processed 73,000 patches in 16.8 minutes(72.3 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_82_match_1_sox10_patch1.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_82_match_1_sox10_patch10.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_82_match_1_sox10_patch11.pt
@@ -2202,7 +2202,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_82_match_1_sox10_patch6.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_82_match_1_sox10_patch7.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_82_match_1_sox10_patch8.pt
-Processed 74,000 patches in 16.8 minutes(73.3 patches/sec)
+Processed 74,000 patches in 17.1 minutes(72.1 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_82_match_1_sox10_patch9.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_match_1_h&e_patch171.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_match_1_h&e_patch177.pt
@@ -2212,7 +2212,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_match_1_h&e_patch222.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_match_1_h&e_patch223.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_match_1_h&e_patch224.pt
-Processed 75,000 patches in 17.1 minutes(73.2 patches/sec)
+Processed 75,000 patches in 17.4 minutes(72.0 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_match_1_h&e_patch451.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_match_1_melan_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_match_1_melan_patch1.pt
@@ -2252,7 +2252,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_unmatched2_h&e_patch106.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_unmatched2_h&e_patch107.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_unmatched2_h&e_patch114.pt
-Processed 76,000 patches in 17.3 minutes(73.2 patches/sec)
+Processed 76,000 patches in 17.6 minutes(71.9 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_unmatched2_h&e_patch17.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_unmatched2_h&e_patch177.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_83_unmatched2_h&e_patch178.pt
@@ -2301,7 +2301,7 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_84_match_1_h&e_patch110.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_84_match_1_h&e_patch111.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_84_match_1_h&e_patch16.pt
-Processed 77,000 patches in 17.5 minutes(73.2 patches/sec)
+Processed 77,000 patches in 17.8 minutes(71.9 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_84_match_1_h&e_patch26.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_84_match_1_h&e_patch33.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_84_match_1_h&e_patch34.pt
@@ -2321,28 +2321,28 @@ Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presen
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_84_match_1_melan_patch5.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_84_match_1_melan_patch6.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_84_unmatched1_h&e_patch135.pt
-Processed 78,000 patches in 17.8 minutes(73.1 patches/sec)
-Processed 79,000 patches in 18.0 minutes(73.0 patches/sec)
-Processed 80,000 patches in 18.3 minutes(72.9 patches/sec)
-Processed 81,000 patches in 18.5 minutes(72.9 patches/sec)
-Processed 82,000 patches in 18.9 minutes(72.4 patches/sec)
+Processed 78,000 patches in 18.1 minutes(71.8 patches/sec)
+Processed 79,000 patches in 18.4 minutes(71.7 patches/sec)
+Processed 80,000 patches in 18.6 minutes(71.5 patches/sec)
+Processed 81,000 patches in 18.9 minutes(71.3 patches/sec)
+Processed 82,000 patches in 19.3 minutes(70.9 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_92_match_1_h&e_patch8.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_92_match_1_h&e_patch94.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_92_match_1_sox10_patch142.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_93_unmatched_1_h&e_patch0.pt
-Processed 83,000 patches in 19.1 minutes(72.4 patches/sec)
-Processed 84,000 patches in 19.4 minutes(72.3 patches/sec)
-Processed 85,000 patches in 19.6 minutes(72.2 patches/sec)
+Processed 83,000 patches in 19.5 minutes(70.9 patches/sec)
+Processed 84,000 patches in 19.8 minutes(70.8 patches/sec)
+Processed 85,000 patches in 20.0 minutes(70.7 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_97_match_3_sox10_patch34.pt
-Processed 86,000 patches in 19.9 minutes(72.1 patches/sec)
+Processed 86,000 patches in 20.3 minutes(70.7 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_97_unmatched_10_h&e_patch49.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_97_unmatched_10_h&e_patch50.pt
-Processed 87,000 patches in 20.1 minutes(72.1 patches/sec)
+Processed 87,000 patches in 20.5 minutes(70.6 patches/sec)
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_97_unmatched_9_h&e_patch0.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_97_unmatched_9_h&e_patch76.pt
 Missing embedding: /projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99/case_97_unmatched_9_h&e_patch77.pt
-Processed 88,000 patches in 20.4 minutes(72.0 patches/sec)
-Processed 89,000 patches in 20.6 minutes(71.8 patches/sec)
+Processed 88,000 patches in 20.8 minutes(70.6 patches/sec)
+Processed 89,000 patches in 21.0 minutes(70.5 patches/sec)
 Patch table: 85413  rows
 Case table: 99  rows
-End time: Thu Nov 19 00:50:16 CST 2026
+End time: Thu Nov 19 10:29:01 CST 2026
