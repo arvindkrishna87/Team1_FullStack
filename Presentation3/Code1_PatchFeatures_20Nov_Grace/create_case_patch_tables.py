@@ -70,6 +70,8 @@ for filename in test_patches:
     # Get file path
     png_path = os.path.join(PATCHES_DIR, filename)
     expected_emb = os.path.join(EMBEDDINGS_DIR, os.path.splitext(filename)[0] + ".pt")
+    if not os.path.isfile(expected_emb):
+        print(f"Missing embedding: {expected_emb}")
 
     # Read original PNG dimensions
     with Image.open(png_path) as img:

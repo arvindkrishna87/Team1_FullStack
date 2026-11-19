@@ -25,7 +25,7 @@ X=/home/ele0436/STAT390_coder/same_input_comparison
 cd $X/code
 python3 precompute_pooled_features.py \
     --encoder uni2 --uni2_native_size \
-    --patches_dir /projects/e32998/patch_images \
+    --patches_dir /projects/e32998/patches_benign_split \
     --embeddings_dir $X/embeddings_uni2_original_size \
     --batch_size 64 --num_workers 6 \
     --num_shards 4 --shard_index "$SLURM_ARRAY_TASK_ID" --log_every 20

@@ -31,6 +31,6 @@ cd <enter path of script>
 
 # updated from presentation 2, /projects/e32998/patches_benign_split
 python3 precompute_pooled_features.py \
-    --patches_dir /projects/e32998/patch_images \
+    --patches_dir /projects/e32998/patches_benign_split \
     --embeddings_dir /projects/e32998/STAT390_Fall2026/<insert Team directory>patch_embeddings_UNI2 \
     --kimianet_ckpt /path/to/UNI2.pth 

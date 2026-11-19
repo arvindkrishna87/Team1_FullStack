@@ -217,7 +217,7 @@ def load_uni2(pretrained: bool = True, native_size: bool = False) -> nn.Module:
 # ----------------------------
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--patches_dir", default="/projects/e32998/patch_images", help="Folder with PNG patches")
+    ap.add_argument("--patches_dir", default="/projects/e32998/patches_benign_split", help="Folder with PNG patches")
     ap.add_argument("--embeddings_dir", default="/projects/e32998/patches_varsize_pooled4096", help="Where to save .pt features")
     ap.add_argument("--encoder", choices=["kimianet", "uni2"], default="kimianet", help="Which frozen encoder to run")
     ap.add_argument("--kimianet_ckpt", default="KimiaNet.pth", help="KimiaNet checkpoint path")

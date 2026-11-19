@@ -21,16 +21,16 @@ echo "Job ID: $SLURM_JOB_ID"
 echo "Start time: $(date)"
 
 # Run training
-python3 -m pip install -r /path/to/requirements.txt
+python3 -m pip install -r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt
 python3 -m pip install --upgrade certifi
 export SSL_CERT_FILE="$(python -m certifi)"
 
-cd /path_to_file_directory # path to file directory
+cd /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace # path to file directory
 
 # without loading checkpoints, trying 5 diff train / test splits
 
 # updated from /projects/e32998/patches_benign_split
 python3 make_splits.py \
-    --labels_csv path_to/extra_benign_case_grade_match.csv \
-    --patches_dir /projects/e32998/patch_images \
-    --save_dir /path_to/no_train_val_leakage_splits # directory where splits are saved to
+    --labels_csv /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/extra_benign_case_grade_match.csv \
+    --patches_dir /projects/e32998/patches_benign_split \
+    --save_dir /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits # directory where splits are saved to
