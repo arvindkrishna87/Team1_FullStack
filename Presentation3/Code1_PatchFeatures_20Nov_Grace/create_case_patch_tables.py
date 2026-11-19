@@ -50,17 +50,12 @@ for filename in test_patches:
     if not match:
         raise ValueError(f"Unrecognized filename: {filename}")
     case_id = int(match.group(1))
-    if case_id == 22 or case_id == 107 or case_id == 108:
-        patient = 22
-    elif case_id == 26 or case_id == 109 or case_id == 110 or case_id == 111:
-        patient = 26
-    elif case_id == 24 or case_id == 118:
-        patient = 24
-    elif case_id == 25 or case_id == 119:
-        patient = 25
-    else:
-        patient = case_id
-    patient = match.group(2).lower()
+    patient_map = {
+        22: 22, 107: 22, 108: 22,
+        26: 26, 109: 26, 110: 26, 111: 26,
+        24: 24, 118: 24,
+        25: 25, 119: 25}
+    patient = patient_map.get(case_id, case_id)
     slice_raw = match.group(2).lower()
     patch_num = int(match.group(3))
     # slice_id = re.sub(r"([a-z])(\d+)$", r"\1_\2", slice_raw) # unused
@@ -83,7 +78,7 @@ for filename in test_patches:
     # Check whether embedding exists
     has_embedding = os.path.isfile(expected_emb)
 
-    # Put together values
+    # Put values together
     records.append({
         "patch_id": os.path.splitext(filename)[0],
         "case": case_id,
@@ -106,26 +101,27 @@ for filename in test_patches:
         "height": height, # new
         "patch_size": width * height # new
     })
+# Get df and print
 patch_df = pd.DataFrame(records)
 if patch_df.empty:
     raise ValueError("No labeled PNG patches found")
 patch_df.to_parquet("patches_with_features_100.parquet", index=False)
 print("Patch table:", len(patch_df), " rows")
 
-# CASE-LEVEL TABLE
+### CASE-LEVEL TABLE
 case_records = []
 for case_id, group in patch_df.groupby("case"):
     # Calculating new columns
     n_patches = len(group)
-    n_slices = group["slice_raw"].nunique()
+    n_slices = n_slices = group[["stain", "slice_raw"]].drop_duplicates().shape[0]
     sizes = group["patch_size"]
     stain_counts = group["stain"].value_counts()
     n_missing = group["emb_path"].isna().sum()
 
-    # Put together values
+    # Put values together
     case_records.append({
         "case_id": case_id,
-        "patient_id": patient,
+        "patient_id": group["patient"].iloc[0],
         "label": group["label"].iloc[0],
         "grade": group["grade_raw"].iloc[0],
         "fold": pd.NA, ### FIGURE OUT
@@ -141,6 +137,7 @@ for case_id, group in patch_df.groupby("case"):
         "melan_share": stain_counts.get("melan", 0) / n_patches, # new
         "sox10_share": stain_counts.get("sox10", 0) / n_patches # new
     })
+# Get df and print
 case_df = pd.DataFrame(case_records).sort_values("case_id")
 case_df.to_parquet("cases_with_features_100.parquet", index=False)
 print("Case table:", len(case_df), " rows")
