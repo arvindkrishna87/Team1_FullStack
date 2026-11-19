@@ -15,7 +15,7 @@ processed = 0
 ### GET PATHS
 PATCHES_DIR = DATA_PATHS["patches_dir"]
 #EMBEDDINGS_DIR = "/projects/e32998/patches_varsize_pooled4096"
-EMBEDDINGS_DIR = ("/projects/e32998/STAT390_Fall2026/Team5_TheWildcards/patch_embeddings_UNI2")
+EMBEDDINGS_DIR = "/projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99"
 SPLITS_DIR = ("/home/cwh6075/Team1_FullStack/Presentation3/"
               "Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits")
 
@@ -43,14 +43,15 @@ for fold in range(1, 6):
 ### PATCH-LEVEL TABLE
 records = []
 built_at = datetime.now().isoformat(timespec="seconds")
-#for filename in sorted(os.listdir(PATCHES_DIR)):
 # Test on only 100 files
-all_patches = sorted(
-    f for f in os.listdir(PATCHES_DIR)
-    if f.lower().endswith(".png")
-)
-test_patches = all_patches[:100]
-for filename in test_patches:
+#all_patches = sorted(
+#    f for f in os.listdir(PATCHES_DIR)
+#    if f.lower().endswith(".png")
+#)
+#test_patches = all_patches[:100]
+#for filename in test_patches:
+# Test on all files
+for filename in sorted(os.listdir(PATCHES_DIR)):
     processed = processed + 1
     if processed % 1000 == 0:
         elapsed = time.time() - start
