@@ -1,5 +1,7 @@
 WARNING: Ignoring invalid distribution ~orch (/home/cwh6075/.local/lib/python3.12/site-packages)
 WARNING: Ignoring invalid distribution ~orch (/home/cwh6075/.local/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~orch (/home/cwh6075/.local/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~orch (/home/cwh6075/.local/lib/python3.12/site-packages)
 
 [notice] A new release of pip is available: 23.2.1 -> 26.3
 [notice] To update, run: pip install --upgrade pip

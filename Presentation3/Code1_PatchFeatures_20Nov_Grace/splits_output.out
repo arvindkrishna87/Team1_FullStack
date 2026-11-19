@@ -1,6 +1,8 @@
-Job ID: 9322423
-Start time: Wed Nov 18 23:16:38 CST 2026
-Requirement already satisfied: torch>=1.9.0 in /home/cwh6075/.local/lib/python3.12/site-packages (from -r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (2.15.0)
+Job ID: 9325089
+Start time: Wed Nov 18 23:50:12 CST 2026
+Collecting torch>=1.9.0 (from -r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2))
+  Obtaining dependency information for torch>=1.9.0 from https://files.pythonhosted.org/packages/42/43/612036bf387d34afff1ec77d3aabe0d16776f1727b00b8bc4540fe5472b1/torch-2.15.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata
+  Using cached torch-2.15.0-cp312-cp312-manylinux_2_28_x86_64.whl.metadata (36 kB)
 Requirement already satisfied: torchvision>=0.10.0 in /projects/e32998/env/lib/python3.12/site-packages (from -r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 3)) (0.24.0)
 Requirement already satisfied: numpy>=1.21.0 in /home/cwh6075/.local/lib/python3.12/site-packages (from -r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 4)) (2.5.4)
 Requirement already satisfied: pandas>=1.3.0 in /home/cwh6075/.local/lib/python3.12/site-packages (from -r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 5)) (3.1.0)
@@ -25,7 +27,9 @@ Requirement already satisfied: nvidia-cudnn-cu13==9.26.0.51 in /home/cwh6075/.lo
 Requirement already satisfied: nvidia-cusparselt-cu13==0.8.1 in /home/cwh6075/.local/lib/python3.12/site-packages (from torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (0.8.1)
 Requirement already satisfied: nvidia-nccl-cu13==2.30.7 in /home/cwh6075/.local/lib/python3.12/site-packages (from torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (2.30.7)
 Requirement already satisfied: nvidia-nvshmem-cu13==3.7.2 in /home/cwh6075/.local/lib/python3.12/site-packages (from torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (3.7.2)
-Requirement already satisfied: triton~=3.9.0 in /home/cwh6075/.local/lib/python3.12/site-packages (from torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (3.9.0)
+Collecting triton~=3.9.0 (from torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2))
+  Obtaining dependency information for triton~=3.9.0 from https://files.pythonhosted.org/packages/3f/c9/af85b25e0d98bd921a7646ad1db1c8746250ee04b8f1595982d29b6283cf/triton-3.9.0-cp312-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata
+  Using cached triton-3.9.0-cp312-abi3-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (978 bytes)
 Requirement already satisfied: nvidia-cublas==13.4.1.3.* in /home/cwh6075/.local/lib/python3.12/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.2.2->torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (13.4.1.3)
 Requirement already satisfied: nvidia-cuda-nvrtc==13.2.86.* in /home/cwh6075/.local/lib/python3.12/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.2.2->torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (13.2.86)
 Requirement already satisfied: nvidia-cuda-runtime==13.2.86.* in /home/cwh6075/.local/lib/python3.12/site-packages (from cuda-toolkit[cublas,cudart,cufft,cufile,cupti,cusolver,cusparse,nvjitlink,nvrtc,nvtx]==13.2.2->torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (13.2.86)
@@ -55,9 +59,7 @@ Requirement already satisfied: nvidia-nvshmem-cu12==3.3.20 in /projects/e32998/e
 Requirement already satisfied: nvidia-nvtx-cu12==12.8.90 in /projects/e32998/env/lib/python3.12/site-packages (from torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (12.8.90)
 Requirement already satisfied: nvidia-nvjitlink-cu12==12.8.93 in /projects/e32998/env/lib/python3.12/site-packages (from torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (12.8.93)
 Requirement already satisfied: nvidia-cufile-cu12==1.13.1.3 in /projects/e32998/env/lib/python3.12/site-packages (from torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (1.13.1.3)
-Collecting triton==3.5.0 (from torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2))
-  Obtaining dependency information for triton==3.5.0 from https://files.pythonhosted.org/packages/f5/3a/e991574f3102147b642e49637e0281e9bb7c4ba254edb2bab78247c85e01/triton-3.5.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata
-  Using cached triton-3.5.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (1.7 kB)
+Requirement already satisfied: triton==3.5.0 in /projects/e32998/env/lib/python3.12/site-packages (from torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (3.5.0)
 Requirement already satisfied: python-dateutil>=2.9.0 in /home/cwh6075/.local/lib/python3.12/site-packages (from pandas>=1.3.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 5)) (4.0.0)
 Requirement already satisfied: scipy>=1.10.0 in /projects/e32998/env/lib/python3.12/site-packages (from scikit-learn>=1.0.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 6)) (1.16.3)
 Requirement already satisfied: joblib>=1.3.0 in /projects/e32998/env/lib/python3.12/site-packages (from scikit-learn>=1.0.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 6)) (1.5.2)
@@ -79,23 +81,14 @@ Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/cwh6075/.local/lib/py
 Requirement already satisfied: MarkupSafe>=2.0 in /home/cwh6075/.local/lib/python3.12/site-packages (from jinja2->torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (3.0.4)
 Requirement already satisfied: cuda-pathfinder>=1.4.2 in /home/cwh6075/.local/lib/python3.12/site-packages (from cuda-bindings<14,>=13.0.3->torch>=1.9.0->-r /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/requirements.txt (line 2)) (1.8.5)
 Using cached torch-2.9.0-cp312-cp312-manylinux_2_28_x86_64.whl (899.7 MB)
-Using cached triton-3.5.0-cp312-cp312-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (170.5 MB)
-Installing collected packages: triton, torch
-  Attempting uninstall: triton
-    Found existing installation: triton 3.9.0
-    Uninstalling triton-3.9.0:
-      Successfully uninstalled triton-3.9.0
-  Attempting uninstall: torch
-    Found existing installation: torch 2.15.0
-    Uninstalling torch-2.15.0:
-      Successfully uninstalled torch-2.15.0
-Successfully installed torch-2.9.0 triton-3.5.0
+Installing collected packages: torch
+Successfully installed torch-2.9.0
 Requirement already satisfied: certifi in /projects/e32998/env/lib/python3.12/site-packages (2026.10.23)
 ================================================================================
 CREATING DATA SPLITS (GROUPED CASES + MATCHED PROPORTIONS)
 ================================================================================
 labels_csv:        /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/extra_benign_case_grade_match.csv
-patches_dir:       /projects/e32998/patches_benign_split
+patches_dir:       /projects/e32998/patch_images
 seed:              42
 save_dir:          /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits
 grouped_cases:     [(22, 107, 108), (24, 118), (25, 119), (26, 109, 110, 111)]
@@ -103,33 +96,33 @@ ratios (targets):  train=0.6, val=0.2, test=0.2
 max_ratio_den:     20
 
 Loaded 118 label rows
-Found 83630 files in patches_dir
+Found 89002 files in patches_dir
 All 3808 non-standard file names were handled.
-Grouped into 383 slices
-Mapped 371 slices to classes
+Grouped into 405 slices
+Mapped 393 slices to classes
 
 Overall case counts:
-  Total:  93  |  Benign: 35  |  High: 58
+  Total:  99  |  Benign: 35  |  High: 64
 
 ================================================================================
 Fold 1
 ================================================================================
 
 Final achieved high-grade ratios:
-  Train: 36/57 = 0.631579
-  Val:   11/18 = 0.611111
-  Test:  11/18 = 0.611111
+  Train: 39/60 = 0.650000
+  Val:   12/19 = 0.631579
+  Test:  13/20 = 0.650000
 
 Slice counts after split:
-  Train slices: 194
-  Val slices:   101
-  Test slices:  76
+  Train slices: 226
+  Val slices:   74
+  Test slices:  93
 
 ----------------------------------------
 LEAK CHECK
 ----------------------------------------
-Cases per split: 57 18 18
-Paths per split: 45581 21524 12936
+Cases per split: 60 19 20
+Paths per split: 50551 15793 19069
 No leakage between train & val (cases).
 No leakage between train & test (cases).
 No leakage between val & test (cases).
@@ -140,44 +133,44 @@ No leakage between val & test (paths).
 ========================================
 TRAIN SPLIT
 ========================================
-Total cases:      57
+Total cases:      60
 Benign (0):       21
-High-grade (1):   36
-High-grade ratio: 0.631579
+High-grade (1):   39
+High-grade ratio: 0.650000
 
 Benign CASE IDs:
-[22, 23, 24, 26, 30, 36, 43, 45, 46, 53, 79, 85, 86, 90, 96, 107, 108, 109, 110, 111, 118]
+[4, 22, 24, 26, 27, 30, 34, 56, 77, 78, 79, 82, 85, 90, 94, 107, 108, 109, 110, 111, 118]
 
 High-grade CASE IDs:
-[3, 5, 7, 9, 11, 14, 16, 17, 18, 19, 40, 44, 47, 48, 51, 52, 54, 55, 57, 58, 61, 64, 66, 67, 68, 70, 72, 80, 83, 84, 87, 88, 89, 95, 101, 106]
+[1, 7, 8, 9, 11, 14, 16, 18, 19, 20, 33, 35, 38, 44, 47, 48, 50, 51, 52, 54, 55, 60, 61, 62, 63, 64, 67, 68, 72, 73, 75, 80, 87, 88, 92, 98, 99, 100, 106]
 
 ========================================
 VAL SPLIT
 ========================================
-Total cases:      18
+Total cases:      19
 Benign (0):       7
-High-grade (1):   11
-High-grade ratio: 0.611111
+High-grade (1):   12
+High-grade ratio: 0.631579
 
 Benign CASE IDs:
-[2, 34, 56, 77, 78, 82, 94]
+[2, 21, 23, 36, 45, 46, 53]
 
 High-grade CASE IDs:
-[38, 41, 50, 59, 60, 63, 92, 97, 98, 100, 104]
+[3, 5, 15, 32, 40, 41, 42, 49, 59, 89, 97, 101]
 
 ========================================
 TEST SPLIT
 ========================================
-Total cases:      18
+Total cases:      20
 Benign (0):       7
-High-grade (1):   11
-High-grade ratio: 0.611111
+High-grade (1):   13
+High-grade ratio: 0.650000
 
 Benign CASE IDs:
-[4, 21, 25, 27, 28, 93, 119]
+[25, 28, 43, 86, 93, 96, 119]
 
 High-grade CASE IDs:
-[1, 12, 15, 32, 42, 49, 69, 73, 75, 91, 99]
+[12, 17, 57, 58, 66, 69, 70, 83, 84, 91, 95, 102, 104]
 Data splits saved to: /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits/data_splits_new_01.npz
 
 ========================================
@@ -192,20 +185,20 @@ Fold 2
 ================================================================================
 
 Final achieved high-grade ratios:
-  Train: 35/56 = 0.625000
-  Val:   11/18 = 0.611111
-  Test:  12/19 = 0.631579
+  Train: 38/59 = 0.644068
+  Val:   13/20 = 0.650000
+  Test:  13/20 = 0.650000
 
 Slice counts after split:
-  Train slices: 225
-  Val slices:   76
-  Test slices:  70
+  Train slices: 217
+  Val slices:   93
+  Test slices:  83
 
 ----------------------------------------
 LEAK CHECK
 ----------------------------------------
-Cases per split: 56 18 19
-Paths per split: 51747 12936 15358
+Cases per split: 59 20 20
+Paths per split: 46741 19069 19603
 No leakage between train & val (cases).
 No leakage between train & test (cases).
 No leakage between val & test (cases).
@@ -216,44 +209,44 @@ No leakage between val & test (paths).
 ========================================
 TRAIN SPLIT
 ========================================
-Total cases:      56
+Total cases:      59
 Benign (0):       21
-High-grade (1):   35
-High-grade ratio: 0.625000
+High-grade (1):   38
+High-grade ratio: 0.644068
 
 Benign CASE IDs:
-[2, 22, 23, 24, 30, 34, 36, 43, 46, 53, 56, 77, 78, 79, 82, 85, 94, 96, 107, 108, 118]
+[2, 21, 22, 23, 24, 30, 34, 36, 45, 46, 53, 56, 77, 78, 79, 85, 90, 94, 107, 108, 118]
 
 High-grade CASE IDs:
-[5, 7, 9, 14, 16, 17, 18, 19, 38, 41, 44, 48, 50, 55, 57, 58, 59, 60, 61, 63, 64, 66, 67, 68, 72, 80, 87, 89, 92, 95, 97, 98, 100, 101, 104]
+[1, 3, 5, 7, 8, 11, 15, 16, 20, 32, 33, 38, 40, 41, 42, 44, 47, 48, 49, 50, 52, 54, 55, 59, 60, 63, 67, 72, 73, 80, 87, 88, 89, 92, 97, 98, 99, 101]
 
 ========================================
 VAL SPLIT
 ========================================
-Total cases:      18
+Total cases:      20
 Benign (0):       7
-High-grade (1):   11
-High-grade ratio: 0.611111
+High-grade (1):   13
+High-grade ratio: 0.650000
 
 Benign CASE IDs:
-[4, 21, 25, 27, 28, 93, 119]
+[25, 28, 43, 86, 93, 96, 119]
 
 High-grade CASE IDs:
-[1, 12, 15, 32, 42, 49, 69, 73, 75, 91, 99]
+[12, 17, 57, 58, 66, 69, 70, 83, 84, 91, 95, 102, 104]
 
 ========================================
 TEST SPLIT
 ========================================
-Total cases:      19
+Total cases:      20
 Benign (0):       7
-High-grade (1):   12
-High-grade ratio: 0.631579
+High-grade (1):   13
+High-grade ratio: 0.650000
 
 Benign CASE IDs:
-[26, 45, 86, 90, 109, 110, 111]
+[4, 26, 27, 82, 109, 110, 111]
 
 High-grade CASE IDs:
-[3, 11, 40, 47, 51, 52, 54, 70, 83, 84, 88, 106]
+[9, 14, 18, 19, 35, 51, 61, 62, 64, 68, 75, 100, 106]
 Data splits saved to: /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits/data_splits_new_02.npz
 
 ========================================
@@ -268,20 +261,20 @@ Fold 3
 ================================================================================
 
 Final achieved high-grade ratios:
-  Train: 34/55 = 0.618182
-  Val:   12/19 = 0.631579
-  Test:  12/19 = 0.631579
+  Train: 38/59 = 0.644068
+  Val:   13/20 = 0.650000
+  Test:  13/20 = 0.650000
 
 Slice counts after split:
-  Train slices: 230
-  Val slices:   70
-  Test slices:  71
+  Train slices: 254
+  Val slices:   83
+  Test slices:  56
 
 ----------------------------------------
 LEAK CHECK
 ----------------------------------------
-Cases per split: 55 19 19
-Paths per split: 47820 15358 16863
+Cases per split: 59 20 20
+Paths per split: 52663 19603 13147
 No leakage between train & val (cases).
 No leakage between train & test (cases).
 No leakage between val & test (cases).
@@ -292,44 +285,44 @@ No leakage between val & test (paths).
 ========================================
 TRAIN SPLIT
 ========================================
-Total cases:      55
+Total cases:      59
 Benign (0):       21
-High-grade (1):   34
-High-grade ratio: 0.618182
+High-grade (1):   38
+High-grade ratio: 0.644068
 
 Benign CASE IDs:
-[2, 4, 21, 23, 24, 25, 27, 28, 30, 34, 36, 43, 46, 56, 77, 78, 82, 93, 94, 118, 119]
+[2, 21, 23, 24, 25, 28, 30, 36, 43, 45, 46, 53, 77, 79, 85, 86, 93, 94, 96, 118, 119]
 
 High-grade CASE IDs:
-[1, 5, 7, 12, 15, 16, 32, 38, 41, 42, 48, 49, 50, 55, 57, 58, 59, 60, 63, 66, 67, 69, 73, 75, 87, 91, 92, 95, 97, 98, 99, 100, 101, 104]
+[3, 5, 8, 12, 15, 17, 20, 32, 38, 40, 41, 42, 48, 49, 50, 57, 58, 59, 60, 63, 66, 67, 69, 70, 72, 73, 83, 84, 87, 89, 91, 92, 95, 97, 99, 101, 102, 104]
 
 ========================================
 VAL SPLIT
 ========================================
-Total cases:      19
+Total cases:      20
 Benign (0):       7
-High-grade (1):   12
-High-grade ratio: 0.631579
+High-grade (1):   13
+High-grade ratio: 0.650000
 
 Benign CASE IDs:
-[26, 45, 86, 90, 109, 110, 111]
+[4, 26, 27, 82, 109, 110, 111]
 
 High-grade CASE IDs:
-[3, 11, 40, 47, 51, 52, 54, 70, 83, 84, 88, 106]
+[9, 14, 18, 19, 35, 51, 61, 62, 64, 68, 75, 100, 106]
 
 ========================================
 TEST SPLIT
 ========================================
-Total cases:      19
+Total cases:      20
 Benign (0):       7
-High-grade (1):   12
-High-grade ratio: 0.631579
+High-grade (1):   13
+High-grade ratio: 0.650000
 
 Benign CASE IDs:
-[22, 53, 79, 85, 96, 107, 108]
+[22, 34, 56, 78, 90, 107, 108]
 
 High-grade CASE IDs:
-[9, 14, 17, 18, 19, 44, 61, 64, 68, 72, 80, 89]
+[1, 7, 11, 16, 33, 44, 47, 52, 54, 55, 80, 88, 98]
 Data splits saved to: /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits/data_splits_new_03.npz
 
 ========================================
@@ -344,20 +337,20 @@ Fold 4
 ================================================================================
 
 Final achieved high-grade ratios:
-  Train: 34/55 = 0.618182
-  Val:   12/19 = 0.631579
-  Test:  12/19 = 0.631579
+  Train: 38/59 = 0.644068
+  Val:   13/20 = 0.650000
+  Test:  13/20 = 0.650000
 
 Slice counts after split:
-  Train slices: 247
-  Val slices:   71
-  Test slices:  53
+  Train slices: 250
+  Val slices:   56
+  Test slices:  87
 
 ----------------------------------------
 LEAK CHECK
 ----------------------------------------
-Cases per split: 55 19 19
-Paths per split: 49818 16863 13360
+Cases per split: 59 20 20
+Paths per split: 54465 13147 17801
 No leakage between train & val (cases).
 No leakage between train & test (cases).
 No leakage between val & test (cases).
@@ -368,44 +361,44 @@ No leakage between val & test (paths).
 ========================================
 TRAIN SPLIT
 ========================================
-Total cases:      55
+Total cases:      59
 Benign (0):       21
-High-grade (1):   34
-High-grade ratio: 0.618182
+High-grade (1):   38
+High-grade ratio: 0.644068
 
 Benign CASE IDs:
-[2, 4, 21, 25, 26, 27, 28, 34, 45, 56, 77, 78, 82, 86, 90, 93, 94, 109, 110, 111, 119]
+[2, 4, 21, 23, 25, 26, 27, 28, 36, 43, 45, 46, 53, 82, 86, 93, 96, 109, 110, 111, 119]
 
 High-grade CASE IDs:
-[1, 3, 11, 12, 15, 32, 38, 40, 41, 42, 47, 49, 50, 51, 52, 54, 59, 60, 63, 69, 70, 73, 75, 83, 84, 88, 91, 92, 97, 98, 99, 100, 104, 106]
+[3, 5, 9, 12, 14, 15, 17, 18, 19, 32, 35, 40, 41, 42, 49, 51, 57, 58, 59, 61, 62, 64, 66, 68, 69, 70, 75, 83, 84, 89, 91, 95, 97, 100, 101, 102, 104, 106]
 
 ========================================
 VAL SPLIT
 ========================================
-Total cases:      19
+Total cases:      20
 Benign (0):       7
-High-grade (1):   12
-High-grade ratio: 0.631579
+High-grade (1):   13
+High-grade ratio: 0.650000
 
 Benign CASE IDs:
-[22, 53, 79, 85, 96, 107, 108]
+[22, 34, 56, 78, 90, 107, 108]
 
 High-grade CASE IDs:
-[9, 14, 17, 18, 19, 44, 61, 64, 68, 72, 80, 89]
+[1, 7, 11, 16, 33, 44, 47, 52, 54, 55, 80, 88, 98]
 
 ========================================
 TEST SPLIT
 ========================================
-Total cases:      19
+Total cases:      20
 Benign (0):       7
-High-grade (1):   12
-High-grade ratio: 0.631579
+High-grade (1):   13
+High-grade ratio: 0.650000
 
 Benign CASE IDs:
-[23, 24, 30, 36, 43, 46, 118]
+[24, 30, 77, 79, 85, 94, 118]
 
 High-grade CASE IDs:
-[5, 7, 16, 48, 55, 57, 58, 66, 67, 87, 95, 101]
+[8, 20, 38, 48, 50, 60, 63, 67, 72, 73, 87, 92, 99]
 Data splits saved to: /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits/data_splits_new_04.npz
 
 ========================================
@@ -420,20 +413,20 @@ Fold 5
 ================================================================================
 
 Final achieved high-grade ratios:
-  Train: 35/56 = 0.625000
-  Val:   12/19 = 0.631579
-  Test:  11/18 = 0.611111
+  Train: 39/60 = 0.650000
+  Val:   13/20 = 0.650000
+  Test:  12/19 = 0.631579
 
 Slice counts after split:
-  Train slices: 217
-  Val slices:   53
-  Test slices:  101
+  Train slices: 232
+  Val slices:   87
+  Test slices:  74
 
 ----------------------------------------
 LEAK CHECK
 ----------------------------------------
-Cases per split: 56 19 18
-Paths per split: 45157 13360 21524
+Cases per split: 60 20 19
+Paths per split: 51819 17801 15793
 No leakage between train & val (cases).
 No leakage between train & test (cases).
 No leakage between val & test (cases).
@@ -444,19 +437,33 @@ No leakage between val & test (paths).
 ========================================
 TRAIN SPLIT
 ========================================
-Total cases:      56
+Total cases:      60
 Benign (0):       21
-High-grade (1):   35
-High-grade ratio: 0.625000
+High-grade (1):   39
+High-grade ratio: 0.650000
 
 Benign CASE IDs:
-[4, 21, 22, 25, 26, 27, 28, 45, 53, 79, 85, 86, 90, 93, 96, 107, 108, 109, 110, 111, 119]
+[4, 22, 25, 26, 27, 28, 34, 43, 56, 78, 82, 86, 90, 93, 96, 107, 108, 109, 110, 111, 119]
 
 High-grade CASE IDs:
-[1, 3, 9, 11, 12, 14, 15, 17, 18, 19, 32, 40, 42, 44, 47, 49, 51, 52, 54, 61, 64, 68, 69, 70, 72, 73, 75, 80, 83, 84, 88, 89, 91, 99, 106]
+[1, 7, 9, 11, 12, 14, 16, 17, 18, 19, 33, 35, 44, 47, 51, 52, 54, 55, 57, 58, 61, 62, 64, 66, 68, 69, 70, 75, 80, 83, 84, 88, 91, 95, 98, 100, 102, 104, 106]
 
 ========================================
 VAL SPLIT
+========================================
+Total cases:      20
+Benign (0):       7
+High-grade (1):   13
+High-grade ratio: 0.650000
+
+Benign CASE IDs:
+[24, 30, 77, 79, 85, 94, 118]
+
+High-grade CASE IDs:
+[8, 20, 38, 48, 50, 60, 63, 67, 72, 73, 87, 92, 99]
+
+========================================
+TEST SPLIT
 ========================================
 Total cases:      19
 Benign (0):       7
@@ -464,24 +471,10 @@ High-grade (1):   12
 High-grade ratio: 0.631579
 
 Benign CASE IDs:
-[23, 24, 30, 36, 43, 46, 118]
+[2, 21, 23, 36, 45, 46, 53]
 
 High-grade CASE IDs:
-[5, 7, 16, 48, 55, 57, 58, 66, 67, 87, 95, 101]
-
-========================================
-TEST SPLIT
-========================================
-Total cases:      18
-Benign (0):       7
-High-grade (1):   11
-High-grade ratio: 0.611111
-
-Benign CASE IDs:
-[2, 34, 56, 77, 78, 82, 94]
-
-High-grade CASE IDs:
-[38, 41, 50, 59, 60, 63, 92, 97, 98, 100, 104]
+[3, 5, 15, 32, 40, 41, 42, 49, 59, 89, 97, 101]
 Data splits saved to: /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits/data_splits_new_05.npz
 
 ========================================
