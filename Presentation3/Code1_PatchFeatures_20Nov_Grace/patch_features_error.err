@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/gpfs/home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/create_case_patch_tables.py", line 68, in <module>
+    raise ValueError(f"Case {case_id} missing from grade_map: {filename}")
+ValueError: Case 65 missing from grade_map: case_065_match_1_h&e_patch0.png

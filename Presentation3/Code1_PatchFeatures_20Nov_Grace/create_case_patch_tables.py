@@ -14,30 +14,13 @@ processed = 0
 
 ### GET PATHS
 PATCHES_DIR = DATA_PATHS["patches_dir"]
-#EMBEDDINGS_DIR = "/projects/e32998/patches_varsize_pooled4096"
-EMBEDDINGS_DIR = "/projects/e32998/STAT390_Fall2026/Team3_DivideNConquer/presentation_3/embeddings_uni2_99"
+EMBEDDINGS_DIR = "/projects/e32998/patches_varsize_pooled4096"
 SPLITS_DIR = ("/home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits")
 
 ### GET LABELS
 labels = load_labels(DATA_PATHS["labels_csv"])
 labels = labels[labels["Class"].isin(VALID_CLASSES)]
 grade_map = dict(zip(labels["Case"].astype(int), labels["Class"]))
-fold_maps = {}
-for fold in range(1, 6):
-    split_path = os.path.join(SPLITS_DIR,
-                              f"data_splits_new_{fold:02d}.npz")
-    with np.load(split_path, allow_pickle=True) as data:
-        fold_map = {}
-        for split_name, key in [("train", "train_cases"),
-                                ("val", "val_cases"),
-                                ("test", "test_cases")]:
-            for case_id in data[key]:
-                case_id = int(case_id)
-                if case_id in fold_map:
-                    raise ValueError(f"Case {case_id} appears in multiple "
-                                     f"partitions of fold {fold}")
-                fold_map[case_id] = split_name
-        fold_maps[fold] = fold_map
 
 ### PATCH-LEVEL TABLE
 records = []
@@ -45,8 +28,7 @@ built_at = datetime.now().isoformat(timespec="seconds")
 # Test on only 100 files
 #all_patches = sorted(
 #    f for f in os.listdir(PATCHES_DIR)
-#    if f.lower().endswith(".png")
-#)
+#    if f.lower().endswith(".png"))
 #test_patches = all_patches[:100]
 #for filename in test_patches:
 # Test on all files
@@ -82,8 +64,6 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
     if stain is None: raise ValueError(f"Unknown stain: {filename}")
 
     # Match current labels
-    if case_id not in grade_map:
-        raise ValueError(f"Case {case_id} missing from grade_map: {filename}")
     grade = grade_map[case_id]
     label = 0 if grade == 1 else 1
 
@@ -97,8 +77,15 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
     with Image.open(png_path) as img:
         width, height = img.size
 
-    # Check whether embedding exists
+    # Embedding
     has_embedding = os.path.isfile(expected_emb)
+    NEW_HIGH_GRADE_CASES = {8, 20, 33, 35, 62, 102}
+    if case_id in NEW_HIGH_GRADE_CASES:
+        emb_path = "new case, no embedding yet"
+    elif os.path.isfile(expected_emb):
+        emb_path = expected_emb
+    else:
+        emb_path = None
 
     # Put values together
     records.append({
@@ -111,12 +98,11 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
         "patch": patch_num,
         "png_name": filename,
         "png_path": png_path,
-        "emb_path": expected_emb if has_embedding else None,
+        "emb_path": emb_path,
         #"exclude_reason": None if has_embedding else "missing_embedding", # deleted
         "grade_raw": grade,
         "label": label,
-        **{f"fold_{fold}": fold_maps[fold].get(case_id, pd.NA)
-           for fold in range(1, 6)},
+        #"fold": fold,
         "emb_version": "uni2",
         #"dataset": "current", # deleted
         "built_at": built_at,
@@ -128,7 +114,7 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
 patch_df = pd.DataFrame(records)
 if patch_df.empty:
     raise ValueError("No labeled PNG patches found")
-patch_df.to_parquet("patches_with_features.parquet", index=False)
+patch_df.to_parquet("patches_with_features_test.parquet", index=False)
 print("Patch table:", len(patch_df), " rows")
 
 ### CASE-LEVEL TABLE
@@ -147,8 +133,7 @@ for case_id, group in patch_df.groupby("case"):
         "patient_id": group["patient"].iloc[0],
         "label": group["label"].iloc[0],
         "grade": group["grade_raw"].iloc[0],
-        **{f"fold_{fold}": fold_maps[fold].get(case_id, pd.NA)
-           for fold in range(1, 6)},
+        #"fold": fold,
         "n_patches": n_patches,
         "n_slices": n_slices,
         "stains": ", ".join(sorted(group["stain"].unique())),
@@ -163,5 +148,5 @@ for case_id, group in patch_df.groupby("case"):
     })
 # Get df and print
 case_df = pd.DataFrame(case_records).sort_values("case_id")
-case_df.to_parquet("cases_with_features.parquet", index=False)
+case_df.to_parquet("cases_with_features_test.parquet", index=False)
 print("Case table:", len(case_df), " rows")
