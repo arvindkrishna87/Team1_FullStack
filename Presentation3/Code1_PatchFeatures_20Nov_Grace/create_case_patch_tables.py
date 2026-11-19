@@ -82,7 +82,8 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
     if stain is None: raise ValueError(f"Unknown stain: {filename}")
 
     # Match current labels
-    if case_id not in grade_map: continue
+    if case_id not in grade_map:
+        raise ValueError(f"Case {case_id} missing from grade_map: {filename}")
     grade = grade_map[case_id]
     label = 0 if grade == 1 else 1
 
@@ -116,7 +117,7 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
         "label": label,
         **{f"fold_{fold}": fold_maps[fold].get(case_id, pd.NA)
            for fold in range(1, 6)},
-        "emb_version": "pooled4096",
+        "emb_version": "uni2",
         #"dataset": "current", # deleted
         "built_at": built_at,
         "width": width, # new
