@@ -32,5 +32,5 @@ cd /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace #
 # updated from /projects/e32998/patches_benign_split
 python3 make_splits.py \
     --labels_csv /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/extra_benign_case_grade_match.csv \
-    --patches_dir /projects/e32998/patches_benign_split \
+    --patches_dir /projects/e32998/patch_images \
     --save_dir /home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits # directory where splits are saved to
