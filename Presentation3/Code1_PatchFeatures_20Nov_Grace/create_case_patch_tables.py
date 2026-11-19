@@ -128,7 +128,7 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
 patch_df = pd.DataFrame(records)
 if patch_df.empty:
     raise ValueError("No labeled PNG patches found")
-patch_df.to_parquet("patches_with_features_100.parquet", index=False)
+patch_df.to_parquet("patches_with_features.parquet", index=False)
 print("Patch table:", len(patch_df), " rows")
 
 ### CASE-LEVEL TABLE
@@ -163,5 +163,5 @@ for case_id, group in patch_df.groupby("case"):
     })
 # Get df and print
 case_df = pd.DataFrame(case_records).sort_values("case_id")
-case_df.to_parquet("cases_with_features_100.parquet", index=False)
+case_df.to_parquet("cases_with_features.parquet", index=False)
 print("Case table:", len(case_df), " rows")
