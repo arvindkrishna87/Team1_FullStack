@@ -15,11 +15,29 @@ processed = 0
 ### GET PATHS
 PATCHES_DIR = DATA_PATHS["patches_dir"]
 EMBEDDINGS_DIR = "/projects/e32998/patches_varsize_pooled4096"
+SPLITS_DIR = ("/home/cwh6075/Team1_FullStack/Presentation3/"
+              "Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits")
 
 ### GET LABELS
 labels = load_labels(DATA_PATHS["labels_csv"])
 labels = labels[labels["Class"].isin(VALID_CLASSES)]
 grade_map = dict(zip(labels["Case"].astype(int), labels["Class"]))
+fold_maps = {}
+for fold in range(1, 6):
+    split_path = os.path.join(SPLITS_DIR,
+                              f"data_splits_new_{fold:02d}.npz")
+    with np.load(split_path, allow_pickle=True) as data:
+        fold_map = {}
+        for split_name, key in [("train", "train_cases"),
+                                ("val", "val_cases"),
+                                ("test", "test_cases")]:
+            for case_id in data[key]:
+                case_id = int(case_id)
+                if case_id in fold_map:
+                    raise ValueError(f"Case {case_id} appears in multiple "
+                                     f"partitions of fold {fold}")
+                fold_map[case_id] = split_name
+        fold_maps[fold] = fold_map
 
 ### PATCH-LEVEL TABLE
 records = []
@@ -95,7 +113,8 @@ for filename in test_patches:
         #"exclude_reason": None if has_embedding else "missing_embedding", # deleted
         "grade_raw": grade,
         "label": label,
-        "fold": pd.NA, ### FIGURE OUT
+        **{f"fold_{fold}": fold_maps[fold].get(case_id, pd.NA)
+           for fold in range(1, 6)},
         "emb_version": "pooled4096",
         #"dataset": "current", # deleted
         "built_at": built_at,
@@ -126,7 +145,8 @@ for case_id, group in patch_df.groupby("case"):
         "patient_id": group["patient"].iloc[0],
         "label": group["label"].iloc[0],
         "grade": group["grade_raw"].iloc[0],
-        "fold": pd.NA, ### FIGURE OUT
+        **{f"fold_{fold}": fold_maps[fold].get(case_id, pd.NA)
+           for fold in range(1, 6)},
         "n_patches": n_patches,
         "n_slices": n_slices,
         "stains": ", ".join(sorted(group["stain"].unique())),

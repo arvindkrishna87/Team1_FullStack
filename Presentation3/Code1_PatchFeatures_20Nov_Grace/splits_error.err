@@ -1,33 +1,12 @@
-ERROR: Could not open requirements file: [Errno 2] No such file or directory: '/path/to/requirements.txt'
+WARNING: Ignoring invalid distribution ~orch (/home/cwh6075/.local/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~orch (/home/cwh6075/.local/lib/python3.12/site-packages)
 
 [notice] A new release of pip is available: 23.2.1 -> 26.3
 [notice] To update, run: pip install --upgrade pip
+WARNING: Ignoring invalid distribution ~orch (/home/cwh6075/.local/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~orch (/home/cwh6075/.local/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~orch (/home/cwh6075/.local/lib/python3.12/site-packages)
+WARNING: Ignoring invalid distribution ~orch (/home/cwh6075/.local/lib/python3.12/site-packages)
 
 [notice] A new release of pip is available: 23.2.1 -> 26.3
 [notice] To update, run: pip install --upgrade pip
-/var/spool/slurmd/job9322079/slurm_script: line 28: cd: /path_to_file_directory: No such file or directory
-Traceback (most recent call last):
-  File "/gpfs/home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/make_splits.py", line 312, in <module>
-    main()
-  File "/gpfs/home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/make_splits.py", line 214, in main
-    labels = load_labels(args.labels_csv)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/gpfs/home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/data_utils.py", line 35, in load_labels
-    labels = pd.read_csv(csv_path).drop(index=64, errors="ignore").reset_index(drop=True)
-             ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/cwh6075/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1866, in read_csv
-    return _read(filepath_or_buffer, kwds)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/cwh6075/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 423, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/cwh6075/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 2721, in __init__
-    self._engine = self._make_engine(f, self.engine)
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/cwh6075/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 2988, in _make_engine
-    self.handles = get_handle(
-                   ^^^^^^^^^^^
-  File "/home/cwh6075/.local/lib/python3.12/site-packages/pandas/io/common.py", line 948, in get_handle
-    handle = open(handle, ioargs.mode)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^
-FileNotFoundError: [Errno 2] No such file or directory: 'path_to/extra_benign_case_grade_match.csv'

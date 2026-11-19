@@ -1,5 +1,7 @@
-Job ID: 9321407
-Start time: Wed Nov 18 22:48:45 CST 2026
+Job ID: 9323157
+Start time: Wed Nov 18 23:16:38 CST 2026
+Missing embedding: /projects/e32998/patches_varsize_pooled4096/case_038_match_10_h&e_patch14.pt
+Missing embedding: /projects/e32998/patches_varsize_pooled4096/case_038_match_10_h&e_patch80.pt
 Patch table: 100  rows
 Case table: 1  rows
-End time: Wed Nov 18 22:49:10 CST 2026
+End time: Wed Nov 18 23:17:00 CST 2026
