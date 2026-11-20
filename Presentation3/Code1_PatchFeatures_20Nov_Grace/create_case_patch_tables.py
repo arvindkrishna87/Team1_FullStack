@@ -14,8 +14,8 @@ processed = 0
 
 ### GET PATHS
 PATCHES_DIR = DATA_PATHS["patches_dir"]
-#EMBEDDINGS_DIR = "/projects/e32998/patches_varsize_pooled4096"
-EMBEDDINGS_DIR = "/home/ele0436/STAT390_coder/same_input_comparison/embeddings_uni2_original_size"
+EMBEDDINGS_DIR = "/projects/e32998/patches_varsize_pooled4096"
+#EMBEDDINGS_DIR = "/home/ele0436/STAT390_coder/same_input_comparison/embeddings_uni2_original_size"
 SPLITS_DIR = ("/home/cwh6075/Team1_FullStack/Presentation3/Code1_PatchFeatures_20Nov_Grace/no_train_val_leakage_splits")
 
 ### GET LABELS
@@ -101,7 +101,7 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
         "emb_path": emb_path,
         "grade_raw": grade,
         "label": label,
-        "emb_version": "uni2",
+        "emb_version": "pooled4096",
         "built_at": built_at,
         "width": width, # new
         "height": height, # new
@@ -109,7 +109,7 @@ for filename in sorted(os.listdir(PATCHES_DIR)):
     })
 # Get df and print
 patch_df = pd.DataFrame(patch_table)
-patch_df.to_parquet("patches_with_features_test.parquet", index=False)
+patch_df.to_parquet("patches_with_features.parquet", index=False)
 print("Patch table:", len(patch_df), " rows")
 
 ### CASE-LEVEL TABLE
@@ -178,5 +178,5 @@ for case_id, group in patch_df.groupby("case"):
     })
 # Get df and print
 case_df = pd.DataFrame(case_table).sort_values("case_id")
-case_df.to_parquet("cases_with_features_test.parquet", index=False)
+case_df.to_parquet("cases_with_features.parquet", index=False)
 print("Case table:", len(case_df), " rows")
