@@ -170,7 +170,7 @@ for case_id, group in patch_df.groupby("case"):
         "patch_size_iqr": patch_size_iqr, # new
         "small_patch_share": small_patch_share, # new
         "median_patches_per_slice": median_patches_per_slice, # new
-         "std_patches_per_slice": std_patches_per_slice, # new
+        "std_patches_per_slice": std_patches_per_slice, # new
         "max_patches_per_slice": max_patches_per_slice, # new
         "h_e_share": h_e_share, # new
         "melan_share": melan_share, # new
