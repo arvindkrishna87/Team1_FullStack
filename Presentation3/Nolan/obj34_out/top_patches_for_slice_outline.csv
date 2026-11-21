@@ -1,0 +1,97 @@
+case_id,role,run,rank,stain,slice_id,patch_file,patch_path,effective_weight,E,pushes_toward
+18,hard,r01_f4,1,melan,unmatched_4,case_18_unmatched_4_melan_patch24.png,/home/chj4322/Presentation3/patch_images_93/case_18_unmatched_4_melan_patch24.png,0.0336310886871136,-0.05581212788820267,benign
+18,hard,r01_f4,2,melan,match_1,case_18_match_1_melan_patch67.png,/home/chj4322/Presentation3/patch_images_93/case_18_match_1_melan_patch67.png,0.0102352716536683,-0.05671851336956024,benign
+18,hard,r01_f4,3,melan,match_1,case_18_match_1_melan_patch59.png,/home/chj4322/Presentation3/patch_images_93/case_18_match_1_melan_patch59.png,0.0088811012460831,-0.03796011582016945,benign
+18,hard,r01_f4,4,melan,match_1,case_18_match_1_melan_patch34.png,/home/chj4322/Presentation3/patch_images_93/case_18_match_1_melan_patch34.png,0.0087342352919,-0.11643616110086441,benign
+18,hard,r01_f4,5,melan,unmatched_4,case_18_unmatched_4_melan_patch5.png,/home/chj4322/Presentation3/patch_images_93/case_18_unmatched_4_melan_patch5.png,0.0078985728530368,-0.073359414935112,benign
+18,hard,r01_f4,6,melan,unmatched_4,case_18_unmatched_4_melan_patch26.png,/home/chj4322/Presentation3/patch_images_93/case_18_unmatched_4_melan_patch26.png,0.0078114369081702,-0.09161390364170074,benign
+18,hard,r01_f4,7,melan,match_1,case_18_match_1_melan_patch112.png,/home/chj4322/Presentation3/patch_images_93/case_18_match_1_melan_patch112.png,0.0076444798043542,-0.08857572078704834,benign
+18,hard,r01_f4,8,melan,unmatched_4,case_18_unmatched_4_melan_patch106.png,/home/chj4322/Presentation3/patch_images_93/case_18_unmatched_4_melan_patch106.png,0.0076272787387745,-0.09538493305444717,benign
+97,correct (vs 18),r01_f4,1,h&e,unmatched_10,case_97_unmatched_10_h&e_patch56.png,/home/chj4322/Presentation3/patch_images_93/case_97_unmatched_10_h&e_patch56.png,0.1641499389933192,2.0484719276428223,high-grade
+97,correct (vs 18),r01_f4,2,h&e,unmatched_10,case_97_unmatched_10_h&e_patch39.png,/home/chj4322/Presentation3/patch_images_93/case_97_unmatched_10_h&e_patch39.png,0.1224235581533596,1.4595171213150024,high-grade
+97,correct (vs 18),r01_f4,3,h&e,unmatched_10,case_97_unmatched_10_h&e_patch42.png,/home/chj4322/Presentation3/patch_images_93/case_97_unmatched_10_h&e_patch42.png,0.080611942944481,0.9078805446624756,high-grade
+97,correct (vs 18),r01_f4,4,h&e,unmatched_10,case_97_unmatched_10_h&e_patch57.png,/home/chj4322/Presentation3/patch_images_93/case_97_unmatched_10_h&e_patch57.png,0.0522153923484054,0.593798816204071,high-grade
+97,correct (vs 18),r01_f4,5,h&e,match_3,case_97_match_3_h&e_patch36.png,/home/chj4322/Presentation3/patch_images_93/case_97_match_3_h&e_patch36.png,0.0475821221218548,0.5273309946060181,high-grade
+97,correct (vs 18),r01_f4,6,h&e,match_2,case_97_match_2_h&e_patch40.png,/home/chj4322/Presentation3/patch_images_93/case_97_match_2_h&e_patch40.png,0.0424480430646051,0.504584014415741,high-grade
+97,correct (vs 18),r01_f4,7,h&e,match_3,case_97_match_3_h&e_patch35.png,/home/chj4322/Presentation3/patch_images_93/case_97_match_3_h&e_patch35.png,0.0368697922508219,0.4165535569190979,high-grade
+97,correct (vs 18),r01_f4,8,h&e,match_2,case_97_match_2_h&e_patch65.png,/home/chj4322/Presentation3/patch_images_93/case_97_match_2_h&e_patch65.png,0.0335025719044208,0.35544338822364807,high-grade
+17,correct (vs 18),r01_f4,1,h&e,unmatched_2,case_17_unmatched_2_h&e_patch32.png,/home/chj4322/Presentation3/patch_images_93/case_17_unmatched_2_h&e_patch32.png,0.0232345689447711,0.27768605947494507,high-grade
+17,correct (vs 18),r01_f4,2,h&e,unmatched_2,case_17_unmatched_2_h&e_patch36.png,/home/chj4322/Presentation3/patch_images_93/case_17_unmatched_2_h&e_patch36.png,0.0215283182341804,0.26402685046195984,high-grade
+17,correct (vs 18),r01_f4,3,h&e,unmatched_2,case_17_unmatched_2_h&e_patch33.png,/home/chj4322/Presentation3/patch_images_93/case_17_unmatched_2_h&e_patch33.png,0.0211176927193856,0.2400735467672348,high-grade
+17,correct (vs 18),r01_f4,4,h&e,unmatched_3,case_17_unmatched_3_h&e_patch52.png,/home/chj4322/Presentation3/patch_images_93/case_17_unmatched_3_h&e_patch52.png,0.0202494029289152,0.25557997822761536,high-grade
+17,correct (vs 18),r01_f4,5,h&e,unmatched_2,case_17_unmatched_2_h&e_patch54.png,/home/chj4322/Presentation3/patch_images_93/case_17_unmatched_2_h&e_patch54.png,0.0197690851720415,0.22491493821144104,high-grade
+17,correct (vs 18),r01_f4,6,h&e,match_1,case_17_match_1_h&e_patch44.png,/home/chj4322/Presentation3/patch_images_93/case_17_match_1_h&e_patch44.png,0.0193015584545711,0.23248350620269775,high-grade
+17,correct (vs 18),r01_f4,7,h&e,unmatched_3,case_17_unmatched_3_h&e_patch51.png,/home/chj4322/Presentation3/patch_images_93/case_17_unmatched_3_h&e_patch51.png,0.0192173377728933,0.2377220094203949,high-grade
+17,correct (vs 18),r01_f4,8,h&e,unmatched_3,case_17_unmatched_3_h&e_patch54.png,/home/chj4322/Presentation3/patch_images_93/case_17_unmatched_3_h&e_patch54.png,0.0190629879601202,0.2301473319530487,high-grade
+106,correct (vs 18),r01_f4,1,h&e,unmatched_1,case_106_unmatched_1_h&e_patch35.png,/home/chj4322/Presentation3/patch_images_93/case_106_unmatched_1_h&e_patch35.png,0.1420766796993227,1.7279261350631714,high-grade
+106,correct (vs 18),r01_f4,2,h&e,match_1,case_106_match_1_h&e_patch157.png,/home/chj4322/Presentation3/patch_images_93/case_106_match_1_h&e_patch157.png,0.1140322615994763,1.2321264743804932,high-grade
+106,correct (vs 18),r01_f4,3,h&e,unmatched_1,case_106_unmatched_1_h&e_patch39.png,/home/chj4322/Presentation3/patch_images_93/case_106_unmatched_1_h&e_patch39.png,0.1054291791638878,1.137695550918579,high-grade
+106,correct (vs 18),r01_f4,4,h&e,unmatched_1,case_106_unmatched_1_h&e_patch87.png,/home/chj4322/Presentation3/patch_images_93/case_106_unmatched_1_h&e_patch87.png,0.096173594876242,1.0826612710952759,high-grade
+106,correct (vs 18),r01_f4,5,h&e,unmatched_1,case_106_unmatched_1_h&e_patch38.png,/home/chj4322/Presentation3/patch_images_93/case_106_unmatched_1_h&e_patch38.png,0.095502598757553,0.9632664322853088,high-grade
+106,correct (vs 18),r01_f4,6,h&e,unmatched_1,case_106_unmatched_1_h&e_patch31.png,/home/chj4322/Presentation3/patch_images_93/case_106_unmatched_1_h&e_patch31.png,0.0770076908937349,0.828385055065155,high-grade
+106,correct (vs 18),r01_f4,7,h&e,unmatched_1,case_106_unmatched_1_h&e_patch36.png,/home/chj4322/Presentation3/patch_images_93/case_106_unmatched_1_h&e_patch36.png,0.0736286706589209,0.7757083177566528,high-grade
+106,correct (vs 18),r01_f4,8,h&e,match_1,case_106_match_1_h&e_patch144.png,/home/chj4322/Presentation3/patch_images_93/case_106_match_1_h&e_patch144.png,0.0635274010143971,0.621158242225647,high-grade
+46,hard,r01_f2,1,h&e,match_1,case_46_match_1_h&e_patch22.png,/home/chj4322/Presentation3/patch_images_93/case_46_match_1_h&e_patch22.png,0.1543560597905573,1.0152009725570679,high-grade
+46,hard,r01_f2,2,h&e,match_1,case_46_match_1_h&e_patch43.png,/home/chj4322/Presentation3/patch_images_93/case_46_match_1_h&e_patch43.png,0.0739041095500261,0.349781334400177,high-grade
+46,hard,r01_f2,3,h&e,match_1,case_46_match_1_h&e_patch21.png,/home/chj4322/Presentation3/patch_images_93/case_46_match_1_h&e_patch21.png,0.0589555360105436,0.2868800759315491,high-grade
+46,hard,r01_f2,4,h&e,match_1,case_46_match_1_h&e_patch1.png,/home/chj4322/Presentation3/patch_images_93/case_46_match_1_h&e_patch1.png,0.0477663454053403,0.22391438484191895,high-grade
+46,hard,r01_f2,5,h&e,match_1,case_46_match_1_h&e_patch2.png,/home/chj4322/Presentation3/patch_images_93/case_46_match_1_h&e_patch2.png,0.0470235302677086,0.1604434698820114,high-grade
+46,hard,r01_f2,6,h&e,match_1,case_46_match_1_h&e_patch42.png,/home/chj4322/Presentation3/patch_images_93/case_46_match_1_h&e_patch42.png,0.0366328287348185,0.20354464650154114,high-grade
+46,hard,r01_f2,7,h&e,match_1,case_46_match_1_h&e_patch41.png,/home/chj4322/Presentation3/patch_images_93/case_46_match_1_h&e_patch41.png,0.0344380371167412,0.16196276247501373,high-grade
+46,hard,r01_f2,8,h&e,match_1,case_46_match_1_h&e_patch27.png,/home/chj4322/Presentation3/patch_images_93/case_46_match_1_h&e_patch27.png,0.0294989599978319,0.06640616059303284,high-grade
+110,correct (vs 46),r01_f2,1,sox10,match_2,case_110_match_2_sox10_patch11.png,/home/chj4322/Presentation3/patch_images_93/case_110_match_2_sox10_patch11.png,0.029919845120668,-0.4229111969470978,benign
+110,correct (vs 46),r01_f2,2,sox10,match_2,case_110_match_2_sox10_patch6.png,/home/chj4322/Presentation3/patch_images_93/case_110_match_2_sox10_patch6.png,0.0276726282703341,-0.39299869537353516,benign
+110,correct (vs 46),r01_f2,3,sox10,match_2,case_110_match_2_sox10_patch25.png,/home/chj4322/Presentation3/patch_images_93/case_110_match_2_sox10_patch25.png,0.0271189477190296,-0.3940548896789551,benign
+110,correct (vs 46),r01_f2,4,sox10,match_2,case_110_match_2_sox10_patch37.png,/home/chj4322/Presentation3/patch_images_93/case_110_match_2_sox10_patch37.png,0.0270922390524013,-0.3750351071357727,benign
+110,correct (vs 46),r01_f2,5,sox10,match_2,case_110_match_2_sox10_patch9.png,/home/chj4322/Presentation3/patch_images_93/case_110_match_2_sox10_patch9.png,0.0248821517450893,-0.2963581681251526,benign
+110,correct (vs 46),r01_f2,6,sox10,match_2,case_110_match_2_sox10_patch33.png,/home/chj4322/Presentation3/patch_images_93/case_110_match_2_sox10_patch33.png,0.0238591954247162,-0.3322007358074188,benign
+110,correct (vs 46),r01_f2,7,sox10,match_2,case_110_match_2_sox10_patch34.png,/home/chj4322/Presentation3/patch_images_93/case_110_match_2_sox10_patch34.png,0.0236281357820847,-0.31678736209869385,benign
+110,correct (vs 46),r01_f2,8,sox10,match_2,case_110_match_2_sox10_patch44.png,/home/chj4322/Presentation3/patch_images_93/case_110_match_2_sox10_patch44.png,0.0229729820817901,-0.28368261456489563,benign
+21,correct (vs 46),r01_f2,1,melan,match_1,case_21_match_1_melan_patch88.png,/home/chj4322/Presentation3/patch_images_93/case_21_match_1_melan_patch88.png,0.0094468079833855,-0.11862967163324356,benign
+21,correct (vs 46),r01_f2,2,melan,unmatched_4,case_21_unmatched_4_melan_patch12.png,/home/chj4322/Presentation3/patch_images_93/case_21_unmatched_4_melan_patch12.png,0.0084735547305683,-0.10743642598390579,benign
+21,correct (vs 46),r01_f2,3,melan,match_1,case_21_match_1_melan_patch63.png,/home/chj4322/Presentation3/patch_images_93/case_21_match_1_melan_patch63.png,0.0083208909792026,-0.10963284224271774,benign
+21,correct (vs 46),r01_f2,4,melan,match_1,case_21_match_1_melan_patch19.png,/home/chj4322/Presentation3/patch_images_93/case_21_match_1_melan_patch19.png,0.0083064441847484,-0.11371561884880066,benign
+21,correct (vs 46),r01_f2,5,melan,unmatched_4,case_21_unmatched_4_melan_patch69.png,/home/chj4322/Presentation3/patch_images_93/case_21_unmatched_4_melan_patch69.png,0.0074204562000818,-0.08831959217786789,benign
+21,correct (vs 46),r01_f2,6,melan,match_1,case_21_match_1_melan_patch85.png,/home/chj4322/Presentation3/patch_images_93/case_21_match_1_melan_patch85.png,0.0074171622982656,-0.09164316952228546,benign
+21,correct (vs 46),r01_f2,7,melan,match_1,case_21_match_1_melan_patch15.png,/home/chj4322/Presentation3/patch_images_93/case_21_match_1_melan_patch15.png,0.0072883294126569,-0.09161759912967682,benign
+21,correct (vs 46),r01_f2,8,melan,match_1,case_21_match_1_melan_patch52.png,/home/chj4322/Presentation3/patch_images_93/case_21_match_1_melan_patch52.png,0.0070710749143094,-0.0933874100446701,benign
+111,correct (vs 46),r01_f2,1,h&e,unmatched_7,case_111_unmatched_7_h&e_patch34.png,/home/chj4322/Presentation3/patch_images_93/case_111_unmatched_7_h&e_patch34.png,0.0153993631496491,0.1080065369606018,high-grade
+111,correct (vs 46),r01_f2,2,sox10,match_3,case_111_match_3_sox10_patch66.png,/home/chj4322/Presentation3/patch_images_93/case_111_match_3_sox10_patch66.png,0.015331353029013,-0.16658152639865875,benign
+111,correct (vs 46),r01_f2,3,sox10,match_3,case_111_match_3_sox10_patch6.png,/home/chj4322/Presentation3/patch_images_93/case_111_match_3_sox10_patch6.png,0.0149047924456056,-0.18572355806827545,benign
+111,correct (vs 46),r01_f2,4,sox10,match_3,case_111_match_3_sox10_patch11.png,/home/chj4322/Presentation3/patch_images_93/case_111_match_3_sox10_patch11.png,0.0148403239576606,-0.19097132980823517,benign
+111,correct (vs 46),r01_f2,5,melan,match_3,case_111_match_3_melan_patch1.png,/home/chj4322/Presentation3/patch_images_93/case_111_match_3_melan_patch1.png,0.0135096029765816,-0.16751255095005035,benign
+111,correct (vs 46),r01_f2,6,sox10,match_3,case_111_match_3_sox10_patch58.png,/home/chj4322/Presentation3/patch_images_93/case_111_match_3_sox10_patch58.png,0.0134921107586288,-0.1580919772386551,benign
+111,correct (vs 46),r01_f2,7,sox10,match_3,case_111_match_3_sox10_patch14.png,/home/chj4322/Presentation3/patch_images_93/case_111_match_3_sox10_patch14.png,0.0131946943493254,-0.1610923558473587,benign
+111,correct (vs 46),r01_f2,8,sox10,match_3,case_111_match_3_sox10_patch53.png,/home/chj4322/Presentation3/patch_images_93/case_111_match_3_sox10_patch53.png,0.0126390322251914,-0.15015968680381775,benign
+78,hard,r03_f5,1,h&e,unmatched_1,case_78_unmatched1_h&e_patch13.png,/home/chj4322/Presentation3/patch_images_93/case_78_unmatched1_h&e_patch13.png,0.658054793883275,4.590421676635742,high-grade
+78,hard,r03_f5,2,h&e,unmatched_1,case_78_unmatched1_h&e_patch10.png,/home/chj4322/Presentation3/patch_images_93/case_78_unmatched1_h&e_patch10.png,0.0365124738342808,0.11603105813264847,high-grade
+78,hard,r03_f5,3,h&e,unmatched_1,case_78_unmatched1_h&e_patch0.png,/home/chj4322/Presentation3/patch_images_93/case_78_unmatched1_h&e_patch0.png,0.0264809583079805,-0.009965149685740471,benign
+78,hard,r03_f5,4,h&e,unmatched_1,case_78_unmatched1_h&e_patch9.png,/home/chj4322/Presentation3/patch_images_93/case_78_unmatched1_h&e_patch9.png,0.0201427779825731,-0.058205559849739075,benign
+78,hard,r03_f5,5,h&e,unmatched_1,case_78_unmatched1_h&e_patch14.png,/home/chj4322/Presentation3/patch_images_93/case_78_unmatched1_h&e_patch14.png,0.0187200586875756,-0.0042822957038879395,benign
+78,hard,r03_f5,6,h&e,unmatched_1,case_78_unmatched1_h&e_patch5.png,/home/chj4322/Presentation3/patch_images_93/case_78_unmatched1_h&e_patch5.png,0.0142814829080224,-0.06037284433841705,benign
+78,hard,r03_f5,7,h&e,unmatched_1,case_78_unmatched1_h&e_patch15.png,/home/chj4322/Presentation3/patch_images_93/case_78_unmatched1_h&e_patch15.png,0.014079763235489,-0.060726553201675415,benign
+78,hard,r03_f5,8,h&e,unmatched_1,case_78_unmatched1_h&e_patch8.png,/home/chj4322/Presentation3/patch_images_93/case_78_unmatched1_h&e_patch8.png,0.0132609377131309,-0.061366841197013855,benign
+79,correct (vs 78),r03_f5,1,melan,match_2,case_79_match_2_melan_patch90.png,/home/chj4322/Presentation3/patch_images_93/case_79_match_2_melan_patch90.png,0.0091264275827697,-0.1192781925201416,benign
+79,correct (vs 78),r03_f5,2,sox10,match_2,case_79_match_2_sox10_patch51.png,/home/chj4322/Presentation3/patch_images_93/case_79_match_2_sox10_patch51.png,0.0091113701841807,-0.12936139106750488,benign
+79,correct (vs 78),r03_f5,3,melan,match_2,case_79_match_2_melan_patch9.png,/home/chj4322/Presentation3/patch_images_93/case_79_match_2_melan_patch9.png,0.008902178611377,-0.11378973722457886,benign
+79,correct (vs 78),r03_f5,4,melan,match_2,case_79_match_2_melan_patch91.png,/home/chj4322/Presentation3/patch_images_93/case_79_match_2_melan_patch91.png,0.0081755556561105,-0.10507447272539139,benign
+79,correct (vs 78),r03_f5,5,melan,match_2,case_79_match_2_melan_patch8.png,/home/chj4322/Presentation3/patch_images_93/case_79_match_2_melan_patch8.png,0.0065589068938857,-0.08174574375152588,benign
+79,correct (vs 78),r03_f5,6,melan,match_3,case_79_match_3_melan_patch72.png,/home/chj4322/Presentation3/patch_images_93/case_79_match_3_melan_patch72.png,0.0064547153316245,-0.08428055793046951,benign
+79,correct (vs 78),r03_f5,7,sox10,match_1,case_79_match_1_sox10_patch90.png,/home/chj4322/Presentation3/patch_images_93/case_79_match_1_sox10_patch90.png,0.0063400092908465,-0.08890729397535324,benign
+79,correct (vs 78),r03_f5,8,sox10,match_3,case_79_match_3_sox10_patch73.png,/home/chj4322/Presentation3/patch_images_93/case_79_match_3_sox10_patch73.png,0.0062706479132971,-0.09376877546310425,benign
+23,correct (vs 78),r03_f5,1,melan,match_1,case_23_match_1_melan_patch71.png,/home/chj4322/Presentation3/patch_images_93/case_23_match_1_melan_patch71.png,0.0213385820756606,-0.17111565172672272,benign
+23,correct (vs 78),r03_f5,2,melan,match_1,case_23_match_1_melan_patch56.png,/home/chj4322/Presentation3/patch_images_93/case_23_match_1_melan_patch56.png,0.0191846732067979,-0.1944466531276703,benign
+23,correct (vs 78),r03_f5,3,melan,match_1,case_23_match_1_melan_patch58.png,/home/chj4322/Presentation3/patch_images_93/case_23_match_1_melan_patch58.png,0.0170227167871601,-0.12617385387420654,benign
+23,correct (vs 78),r03_f5,4,melan,match_1,case_23_match_1_melan_patch8.png,/home/chj4322/Presentation3/patch_images_93/case_23_match_1_melan_patch8.png,0.0160356914114139,-0.19282932579517365,benign
+23,correct (vs 78),r03_f5,5,melan,match_1,case_23_match_1_melan_patch57.png,/home/chj4322/Presentation3/patch_images_93/case_23_match_1_melan_patch57.png,0.0155644852381922,-0.13078419864177704,benign
+23,correct (vs 78),r03_f5,6,melan,match_1,case_23_match_1_melan_patch12.png,/home/chj4322/Presentation3/patch_images_93/case_23_match_1_melan_patch12.png,0.014168503304079,-0.15288972854614258,benign
+23,correct (vs 78),r03_f5,7,melan,match_1,case_23_match_1_melan_patch15.png,/home/chj4322/Presentation3/patch_images_93/case_23_match_1_melan_patch15.png,0.0138937610196467,-0.15741533041000366,benign
+23,correct (vs 78),r03_f5,8,melan,match_1,case_23_match_1_melan_patch13.png,/home/chj4322/Presentation3/patch_images_93/case_23_match_1_melan_patch13.png,0.0135008493485386,-0.14856018126010895,benign
+45,correct (vs 78),r03_f5,1,melan,match_1,case_45_match_1_melan_patch59.png,/home/chj4322/Presentation3/patch_images_93/case_45_match_1_melan_patch59.png,0.0956167319966816,-1.067132592201233,benign
+45,correct (vs 78),r03_f5,2,melan,match_1,case_45_match_1_melan_patch57.png,/home/chj4322/Presentation3/patch_images_93/case_45_match_1_melan_patch57.png,0.0893112752892832,-0.9186398386955261,benign
+45,correct (vs 78),r03_f5,3,melan,match_1,case_45_match_1_melan_patch68.png,/home/chj4322/Presentation3/patch_images_93/case_45_match_1_melan_patch68.png,0.0867921069522292,-0.9444634914398193,benign
+45,correct (vs 78),r03_f5,4,sox10,match_1,case_45_match_1_sox10_patch24.png,/home/chj4322/Presentation3/patch_images_93/case_45_match_1_sox10_patch24.png,0.0693635285648364,-0.6890066862106323,benign
+45,correct (vs 78),r03_f5,5,melan,match_1,case_45_match_1_melan_patch61.png,/home/chj4322/Presentation3/patch_images_93/case_45_match_1_melan_patch61.png,0.0689153511351881,-0.8311354517936707,benign
+45,correct (vs 78),r03_f5,6,melan,match_1,case_45_match_1_melan_patch71.png,/home/chj4322/Presentation3/patch_images_93/case_45_match_1_melan_patch71.png,0.0610585868833091,-0.5896812677383423,benign
+45,correct (vs 78),r03_f5,7,melan,match_1,case_45_match_1_melan_patch72.png,/home/chj4322/Presentation3/patch_images_93/case_45_match_1_melan_patch72.png,0.0375712688590423,-0.4133714437484741,benign
+45,correct (vs 78),r03_f5,8,melan,match_1,case_45_match_1_melan_patch13.png,/home/chj4322/Presentation3/patch_images_93/case_45_match_1_melan_patch13.png,0.0358915991597563,-0.41156435012817383,benign

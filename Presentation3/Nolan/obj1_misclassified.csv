@@ -1,0 +1,7 @@
+fold,case_id,true_label,predicted_label,correct,prob_benign,prob_high_grade,run_dir,true_grade
+2,27,0,1,False,0.1161363944411277,0.883863627910614,/projects/e32998/MIL_training/final_runs/run_20261119_185859,benign
+3,44,1,0,False,0.981203019618988,0.0187969543039798,/projects/e32998/MIL_training/final_runs/run_20261119_172304,high-grade
+3,47,1,0,False,0.5956258773803711,0.4043740630149841,/projects/e32998/MIL_training/final_runs/run_20261119_172304,high-grade
+3,54,1,0,False,0.7371527552604675,0.2628472447395324,/projects/e32998/MIL_training/final_runs/run_20261119_172304,high-grade
+4,50,1,0,False,0.5432567000389099,0.4567433297634125,/projects/e32998/MIL_training/final_runs/run_20261119_172315,high-grade
+5,46,0,1,False,0.1686382740736007,0.8313617706298828,/projects/e32998/MIL_training/final_runs/run_20261119_172327,benign

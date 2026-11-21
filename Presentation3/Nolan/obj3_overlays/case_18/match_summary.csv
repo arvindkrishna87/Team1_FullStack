@@ -1,0 +1,6 @@
+case,stain,slice_idx,rank,patch_idx,effective_weight,patch_file,found,center_x,center_y,rotation_deg,scale,inliers,confidence
+18,melan,0,1,67,0.0102352716536683,/home/chj4322/Presentation3/patch_images_93/case_18_match_1_melan_patch67.png,True,3775.2,4431.6,-54.35,1.0,1553,high
+18,melan,0,2,59,0.0088811012460831,/home/chj4322/Presentation3/patch_images_93/case_18_match_1_melan_patch59.png,True,4555.2,5297.6,-47.13,1.0001,625,high
+18,melan,0,3,34,0.0087342352919,/home/chj4322/Presentation3/patch_images_93/case_18_match_1_melan_patch34.png,True,2808.4,4114.0,99.0,1.0,513,high
+18,melan,0,4,112,0.0076444798043542,/home/chj4322/Presentation3/patch_images_93/case_18_match_1_melan_patch112.png,True,916.6,888.0,-44.6,0.9999,545,high
+18,melan,0,5,33,0.0072021399621522,/home/chj4322/Presentation3/patch_images_93/case_18_match_1_melan_patch33.png,True,2800.5,3962.9,96.45,0.9998,592,high
