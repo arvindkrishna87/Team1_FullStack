@@ -1,5 +1,5 @@
 """Reproduce the P3 Mathlete figures and all paired trial records (CPU only).
-Run with OPENBLAS_NUM_THREADS=1 python Code2_TPEvsGPEI_20Nov_Junho.py OUTPUT_DIRECTORY.
+Run with OPENBLAS_NUM_THREADS=1 python tpe_gp.py OUTPUT_DIRECTORY.
 Add --check-cohort on Quest to verify the eligible case counts.
 Versions: numpy 2.3.4, scipy 1.16.3, optuna 4.7.0, matplotlib 3.10.7.
 """
