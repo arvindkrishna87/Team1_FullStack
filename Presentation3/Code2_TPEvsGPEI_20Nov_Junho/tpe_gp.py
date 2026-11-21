@@ -133,15 +133,23 @@ def main(out):
         count = int(hits[:, k].sum())
         interval = binomtest(count, REPEATS).proportion_ci()
         print(name, "hits", count, "95% exact interval", interval, "mean local fraction", local[:, k].mean())
-    print("paired outcomes both, GP only, TPE only, neither", [
-        int(((hits[:, 0] == a) & (hits[:, 1] == b)).sum()) for a, b in [(1,1),(1,0),(0,1),(0,0)]])
+    gp_hit, tpe_hit = hits.T
+    gp_only = int(np.count_nonzero(gp_hit & ~tpe_hit))
+    tpe_only = int(np.count_nonzero(tpe_hit & ~gp_hit))
+    discordant = gp_only + tpe_only
+    # Exact McNemar test conditions on the number of discordant pairs.
+    p_value = binomtest(gp_only, discordant, p=0.5, alternative="two-sided").pvalue if discordant else 1.0
+    print("Paired outcomes (both, GP-EI only, TPE only, neither):",
+          int(np.count_nonzero(gp_hit & tpe_hit)), gp_only, tpe_only, int(np.count_nonzero(~gp_hit & ~tpe_hit)))
+    print("Two-sided exact McNemar p-value:", p_value)
     print("seed zero indices", traces[0].tolist())
     fig, (ax, path) = plt.subplots(2, 1, figsize=(7.0, 3.4), sharex=True,
                                    gridspec_kw={"height_ratios":[1.5,1]}, layout="constrained")
     ax.plot(GRID, loss(GRID), color="#032C3C", linewidth=2)
     ax.scatter(GRID[traces[0,0,:START_COUNT]], loss(GRID[traces[0,0,:START_COUNT]]),
                color="#032C3C", s=25, label="Shared start", zorder=3)
-    ax.legend(frameon=False, loc="upper right"); ax.set_ylabel("Toy loss")
+    ax.legend(loc="upper left", bbox_to_anchor=(1, 1), frameon=False)
+    ax.set_ylabel("Toy loss")
     for a in (ax,path):
         a.axvspan(.1,.3,color="#D3C3B2",alpha=.45)
         a.axvspan(.775,.825,color="#A7291E",alpha=.14)
